@@ -4,4 +4,4 @@
 
 一、概述
 ---
-1.大数据简介[Docs/guide.md]
+1.大数据简介[https://github.com/Dr11ft/BigDataGuide/blob/master/Docs/guide.md]
