@@ -56,10 +56,74 @@ dn1每传一个packet会放入一个应答队列等待应答。
 &emsp; 3）DataNode开始传输数据给客户端（从磁盘里面读取数据输入流，以packet为单位来做校验）。  
 &emsp; 4）客户端以packet为单位接收，先在本地缓存，然后写入目标文件。  
 
+### 8、secondary namenode工作机制（☆☆☆☆☆）  
+<p align="center">
+<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/Hadoop%E9%9D%A2%E8%AF%95%E9%A2%98Pics/secondary%20namenode%E5%B7%A5%E4%BD%9C%E6%9C%BA%E5%88%B6.png"/>  
+<p align="center">
+</p>
+</p>  
 
+**1）第一阶段：NameNode启动**  
+&emsp; （1）第一次启动NameNode格式化后，创建fsimage和edits文件。如果不是第一次启动，直接加载编辑日志和镜像文件到内存。   
+&emsp; （2）客户端对元数据进行增删改的请求。   
+&emsp; （3）NameNode记录操作日志，更新滚动日志。   
+&emsp; （4）NameNode在内存中对数据进行增删改查。  
+**2）第二阶段：Secondary NameNode工作**  
+&emsp; （1）Secondary NameNode询问NameNode是否需要checkpoint。直接带回NameNode是否检查结果。  
+&emsp; （2）Secondary NameNode请求执行checkpoint。  
+&emsp; （3）NameNode滚动正在写的edits日志。  
+&emsp; （4）将滚动前的编辑日志和镜像文件拷贝到Secondary NameNode。  
+&emsp; （5）Secondary NameNode加载编辑日志和镜像文件到内存，并合并。  
+&emsp; （6）生成新的镜像文件fsimage.chkpoint。  
+&emsp; （7）拷贝fsimage.chkpoint到NameNode。  
+&emsp; （8）NameNode将fsimage.chkpoint重新命名成fsimage。
 
+### 9、NameNode与SecondaryNameNode 的区别与联系？（☆☆☆☆☆）  
+**机制流程看第7题**  
+1）区别  
+&emsp; （1）NameNode负责管理整个文件系统的元数据，以及每一个路径（文件）所对应的数据块信息。  
+&emsp; （2）SecondaryNameNode主要用于定期合并命名空间镜像和命名空间镜像的编辑日志。  
+2）联系：  
+&emsp; （1）SecondaryNameNode中保存了一份和namenode一致的镜像文件（fsimage）和编辑日志（edits）。  
+&emsp; （2）在主namenode发生故障时（假设没有及时备份数据），可以从SecondaryNameNode恢复数据。  
 
+### 10、HDFS组成架构（☆☆☆☆☆）  
+<p align="center">
+<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/Hadoop%E9%9D%A2%E8%AF%95%E9%A2%98Pics/HDFS%E7%BB%84%E6%88%90%E6%9E%B6%E6%9E%84.png"/>  
+<p align="center">
+</p>
+</p>  
 
+架构主要由四个部分组成，分别为**HDFS Client、NameNode、DataNode和Secondary NameNode**。下面我们分别介绍这四个组成部分。  
+1）Client：就是客户端。       
+&emsp; （1）文件切分。文件上传HDFS的时候，Client将文件切分成一个一个的Block，然后进行存储；         
+&emsp; （2）与NameNode交互，获取文件的位置信息；  
+&emsp; （3）与DataNode交互，读取或者写入数据；      
+&emsp; （4）Client提供一些命令来管理HDFS，比如启动或者关闭HDFS；  
+&emsp; （5）Client可以通过一些命令来访问HDFS；  
+2）NameNode：就是Master，它是一个主管、管理者。  
+&emsp; （1）管理HDFS的名称空间；  
+&emsp; （2）管理数据块（Block）映射信息；  
+&emsp; （3）配置副本策略；  
+&emsp; （4）处理客户端读写请求。  
+3）DataNode：就是Slave。NameNode下达命令，DataNode执行实际的操作。  
+&emsp; （1）存储实际的数据块；  
+&emsp; （2）执行数据块的读/写操作。  
+4）Secondary NameNode：并非NameNode的热备。当NameNode挂掉的时候，它并不能马上替换NameNode并提供服务。  
+&emsp; （1）辅助NameNode，分担其工作量；  
+&emsp; （2）定期合并Fsimage和Edits，并推送给NameNode；  
+&emsp; （3）在紧急情况下，可辅助恢复NameNode。  
 
+### 11、HAnamenode 是如何工作的? （☆☆☆☆☆）  
+<p align="center">
+<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/Hadoop%E9%9D%A2%E8%AF%95%E9%A2%98Pics/HAnamenode%E5%B7%A5%E4%BD%9C%E6%9C%BA%E5%88%B6.png"/>  
+<p align="center">
+</p>
+</p>  
 
+ZKFailoverController主要职责  
+&emsp; 1）健康监测：周期性的向它监控的NN发送健康探测命令，从而来确定某个NameNode是否处于健康状态，如果机器宕机，心跳失败，那么zkfc就会标记它处于一个不健康的状态。  
+&emsp; 2）会话管理：如果NN是健康的，zkfc就会在zookeeper中保持一个打开的会话，如果NameNode同时还是Active状态的，那么zkfc还会在Zookeeper中占有一个类型为短暂类型的znode，当这个NN挂掉时，这个znode将会被删除，然后备用的NN，将会得到这把锁，升级为主NN，同时标记状态为Active。  
+&emsp; 3）当宕机的NN新启动时，它会再次注册zookeper，发现已经有znode锁了，便会自动变为Standby状态，如此往复循环，保证高可靠，需要注意，目前仅仅支持最多配置2个NN。  
+&emsp; 4）master选举：如上所述，通过在zookeeper中维持一个短暂类型的znode，来实现抢占式的锁机制，从而判断那个NameNode为Active状态  
 
