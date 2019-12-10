@@ -70,16 +70,28 @@ class Demo {
 
 [我的CSDN博客](https://blog.csdn.net/qq_41544550/article/details/103323540)  
 
+居中图片
+<p align="center">
+<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E7%94%9F%E6%80%81%E4%BD%93%E7%B3%BB.png" width="100" height="60"/>  
+<p align="center">
+</p>
+</p>  
+
+居中图片带说明  
 <p align="center">
 <img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E7%94%9F%E6%80%81%E4%BD%93%E7%B3%BB.png" width="100" height="60"/>  
 <p align="center">
 <em>图片示例</em>
 </p>
-</p>
+</p>  
 
+插入图片  
+<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/Hadoop%E9%9D%A2%E8%AF%95%E9%A2%98Pics/HDFS%E5%9D%97.png"/>  
 
+自定义大小插入图片  
 <img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E7%94%9F%E6%80%81%E4%BD%93%E7%B3%BB.png" width="200" height="160"/>  
 
+图片带链接  
 [!<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E7%94%9F%E6%80%81%E4%BD%93%E7%B3%BB.png" width="200" height="160"/>](https://blog.csdn.net/lovechris00/article/details/82379382)
 
 [<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E7%94%9F%E6%80%81%E4%BD%93%E7%B3%BB.png" width="150" height="100"/>](http://baidu.com)
