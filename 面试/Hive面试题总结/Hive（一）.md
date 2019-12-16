@@ -13,7 +13,7 @@
 &emsp; &emsp; hive.groupby.skewindata=true  
 &emsp; 有数据倾斜的时候进行负载均衡，当选项设定位true,生成的查询计划会有两个MR Job。第一个MR Job中，Map的输出结果集合会随机分布到Reduce中，每个Reduce做部分聚合操作，并输出结果，这样处理的结果是相同的Group By Key有可能被分发到不同的Reduce中，从而达到负载均衡的目的；第二个MR Job再根据预处理的数据结果按照Group By Key 分布到 Reduce 中（这个过程可以保证相同的 Group By Key 被分布到同一个Reduce中），最后完成最终的聚合操作。  
 &emsp; （2）SQL 语句调节：  
-&emsp; &emsp; ① 选用join key分布最均匀的表作为驱动表。做好列裁剪和filter操作，以达到两表做join 的时候，数据量相对变小的效果。  
+&emsp; ① 选用join key分布最均匀的表作为驱动表。做好列裁剪和filter操作，以达到两表做join 的时候，数据量相对变小的效果。  
 &emsp; ② 大小表Join：  
 &emsp; &emsp; 使用map join让小的维度表（1000 条以下的记录条数）先进内存。在map端完成reduce。  
 &emsp; ③ 大表Join大表：  
