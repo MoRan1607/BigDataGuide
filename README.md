@@ -40,6 +40,7 @@
 https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Zookeeper%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93/Zookeeper.md)  
 
 #### 三、Hive
+&emsp; 1.[Hive面试题总结（一）](https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Hive%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93/Hive%EF%BC%88%E4%B8%80%EF%BC%89.md)  
 
 #### 四、HBase
 
