@@ -36,6 +36,8 @@
 &emsp; 5.[Hadoop面试题总结（五）——优化问题](https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Hadoop%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93/Hadoop%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93%EF%BC%88%E4%BA%94%EF%BC%89%E2%80%94%E2%80%94%E4%BC%98%E5%8C%96%E9%97%AE%E9%A2%98.md)  
 
 #### 二、Zookeeper
+&emsp; 1.[Zookeeper面试题总结](
+https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Zookeeper%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93/Zookeeper.md)  
 
 #### 三、Hive
 
