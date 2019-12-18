@@ -60,7 +60,7 @@
 &emsp; 增加map的方法为：根据computeSliteSize(Math.max(minSize,Math.min(maxSize,blocksize)))=blocksize=128M公式，调整maxSize最大值。让maxSize最大值低于blocksize就可以增加map的个数。  
 
 ### 12、Reduce数  
-1）调整reduce个数方法一 
+1）调整reduce个数方法一   
 &emsp; （1）每个Reduce处理的数据量默认是256MB  
 &emsp; &emsp; hive.exec.reducers.bytes.per.reducer=256000000  
 &emsp; （2）每个任务最大的reduce数，默认为1009  
