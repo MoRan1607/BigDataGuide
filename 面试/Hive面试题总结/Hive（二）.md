@@ -28,7 +28,7 @@
 &emsp; &emsp; （2）在Map端进行聚合操作的条目数目     
 &emsp; &emsp; &emsp; hive.groupby.mapaggr.checkinterval = 100000  
 &emsp; &emsp; （3）有数据倾斜的时候进行负载均衡（默认是false）     
-&emsp; &emsp; &emsp; hive.groupby.skewindata = true
+&emsp; &emsp; &emsp; hive.groupby.skewindata = true  
 &emsp; **当选项设定为 true，生成的查询计划会有两个MR Job**。第一个MR Job中，Map的输出结果会随机分布到Reduce中，每个Reduce做部分聚合操作，并输出结果，这样处理的结果是**相同的Group By Key有可能被分发到不同的Reduce中**，从而达到负载均衡的目的；第二个MR Job再根据预处理的数据结果按照Group By Key分布到Reduce中（这个过程可以保证相同的Group By Key被分布到同一个Reduce中），最后完成最终的聚合操作。  
 
 ### 6、Count(Distinct) 去重统计  
