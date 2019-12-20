@@ -27,7 +27,7 @@
 &emsp; 如果我们将 map 端划分数据、持久化数据的过程称为 shuffle write，而将 reducer 读入数据、aggregate 数据的过程称为 shuffle read。那么在 Spark 中，问题就变为怎么在 job 的逻辑或者物理执行图中加入 shuffle write 和 shuffle read的处理逻辑？以及两个处理逻辑应该怎么高效实现？  
 &emsp; Shuffle write由于不要求数据有序，shuffle write 的任务很简单：将数据 partition 好，并持久化。之所以要持久化，一方面是要减少内存存储空间压力，另一方面也是为了 fault-tolerance。  
 
-4、spark工作机制？（☆☆☆☆☆）
+### 4、spark工作机制？（☆☆☆☆☆）  
 <p align="center">
 <img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/Spark%E9%9D%A2%E8%AF%95%E9%A2%98Pics/Spark%E5%B7%A5%E4%BD%9C%E6%9C%BA%E5%88%B6.png"/>  
 <p align="center">
@@ -161,27 +161,4 @@
 &emsp; 3）OtherMemory。给系统预留的，因为程序本身运行也是需要内存的(默认为0.2)。 
 &emsp; 传统内存管理的不足：  
 &emsp; 1）Shuffle占用内存0.2*0.8，内存分配这么少，可能会将数据spill到磁盘，频繁的磁盘IO是很大的负担，Storage内存占用0.6，主要是为了迭代处理。传统的Spark内存分配对操作人的要求非常高。（Shuffle分配内存：ShuffleMemoryManager, TaskMemoryManager, ExecutorMemoryManager）一个Task获得全部的Execution的Memory，其他Task过来就没有内存了，只能等待；  
-&emsp; 2）默认情况下，Task在线程中可能会占满整个内存，分片数据特别大的情况下就会出现这种情况，其他Task没有内存了，剩下的cores就空闲了，这是巨大的浪费。这也是人为操作的不当造成的；  
-&emsp; 3）MEMORY_AND_DISK_SER的storage方式，获得RDD的数据是一条条获取，iterator的方式。如果内存不够（spark.storage.unrollFraction），unroll的读取数据过程，就是看内存是否足够，如果足够，就下一条。unroll的space是从Storage的内存空间中获得的。unroll的方式失败，就会直接放磁盘；  
-&emsp; 4）默认情况下，Task在spill到磁盘之前，会将部分数据存放到内存上，如果获取不到内存，就不会执行。永无止境的等待，消耗CPU和内存；  
-&emsp; 在此基础上，Spark提出了UnifiedMemoryManager，不再分ExecutionMemory和Storage Memory，实际上还是分的，只不过是Execution Memory访问Storage Memory，Storage Memory也可以访问Execution Memory，如果内存不够，就会去借。  
-
-### 23、简要描述Spark写数据的流程？（☆☆☆☆☆）  
-&emsp; 1）RDD调用compute方法，进行指定分区的写入   
-&emsp; 2）CacheManager中调用BlockManager判断数据是否已经写入，如果未写，则写入  
-&emsp; 3）BlockManager中数据与其他节点同步  
-&emsp; 4）BlockManager根据存储级别写入指定的存储层  
-&emsp; 5）BlockManager向主节点汇报存储状态中  
-
-
-
-
-
-
-
-
-
-
-
-
-
+&emsp; 2）默认情况下，Task在线程中可能会占满整个内存，分片数据
