@@ -11,6 +11,11 @@
 ---
 &emsp; 1.[大数据学习路线（包含自己看过的视频链接）](https://github.com/Dr11ft/BigDataGuide/blob/master/Docs/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF.md)
 
+完全分布式集群搭建
+---
+> 可以参考我的博客，按照顺序进行操作即可
+&emsp; 1.[集群搭建](https://blog.csdn.net/qq_41544550/category_9458240.html)  
+
 大数据框架组件
 ---
 ### 一、Hadoop
