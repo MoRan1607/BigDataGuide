@@ -54,7 +54,69 @@ Hadoop——HDFS
 &emsp; （2）定期合并Fsimage和Edits，并推送给NameNode；         
 &emsp; （3）在紧急情况下，可辅助恢复NameNode。  
 
+## 二、HDFS数据流
+**1、HDFS的写数据流程**
+<p align="center">
+<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/Hadoop%E9%9D%A2%E8%AF%95%E9%A2%98Pics/HDFS%E6%96%87%E6%A1%A3-Pics/HDFS%E7%9A%84%E5%86%99%E6%95%B0%E6%8D%AE%E6%B5%81%E7%A8%8B.png"/>  
+<p align="center">
+</p>
+</p>  
 
+步骤：  
+&emsp; 1）客户端通过Distributed FileSystem模块向NameNode请求上传文件，NameNode检查目标文件是否已存在，父目录是否存在。   
+&emsp; 2）NameNode返回是否可以上传。   
+&emsp; 3）客户端请求第一个 block上传到哪几个datanode服务器上。   
+&emsp; 4）NameNode返回3个datanode节点，分别为dn1、dn2、dn3。   
+&emsp; 5）客户端通过FSDataOutputStream模块请求dn1上传数据，dn1收到请求会继续调用dn2，然后dn2调用dn3，将这个通信管道建立完成。   
+&emsp; 6）dn1、dn2、dn3逐级应答客户端。   
+&emsp; 7）客户端开始往dn1上传第一个block（先从磁盘读取数据放到一个本地内存缓存），以packet为单位，dn1收到一个packet就会传给dn2，dn2传给dn3；dn1每传一个packet会放入一个应答队列等待应答。   
+&emsp; 8）当一个block传输完成之后，客户端再次请求NameNode上传第二个block的服务器。（重复执行3-7步）。  
+
+**网络拓扑概念**  
+&emsp; 在本地网络中，两个节点被称为“彼此近邻”是什么意思？在海量数据处理中，其主要限制因素是节点之间数据的传输速率——带宽很稀缺。这里的想法是将两个节点间的带宽作为距离的衡量标准。  
+&emsp; **节点距离：两个节点到达最近的共同祖先的距离总和**。  
+<p align="center">
+<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/Hadoop%E9%9D%A2%E8%AF%95%E9%A2%98Pics/HDFS%E6%96%87%E6%A1%A3-Pics/%E7%BD%91%E7%BB%9C%E6%8B%93%E6%89%91%E6%A6%82%E5%BF%B5.png"/>  
+<p align="center">
+</p>
+</p>  
+
+ &emsp; 例如，假设有数据中心d1机架r1中的节点n1。该节点可以表示为/d1/r1/n1。利用这种标记，这里给出四种距离描述，如上图  
+
+**机架感知**  
+（1）[官方ip地址](http://hadoop.apache.org/docs/r2.7.2/hadoop-project-dist/hadoop-common/RackAwareness.html)  
+（2）低版本Hadoop副本节点选择  
+&emsp; 第一个副本在Client所处的节点上。如果客户端在集群外，随机选一个。  
+&emsp; 第二个副本和第一个副本位于不相同机架的随机节点上。  
+&emsp; 第三个副本和第二个副本位于相同机架，节点随机。  
+<p align="center">
+<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/Hadoop%E9%9D%A2%E8%AF%95%E9%A2%98Pics/HDFS%E6%96%87%E6%A1%A3-Pics/%E6%9C%BA%E6%9E%B6%E6%84%9F%E7%9F%A51.png"/>  
+<p align="center">
+</p>
+</p>  
+
+（3）Hadoop2.7.2副本节点选择  
+&emsp; 第一个副本在Client所处的节点上。如果客户端在集群外，随机选一个。   
+&emsp; 第二个副本和第一个副本位于相同机架，随机节点。   
+&emsp; 第三个副本位于不同机架，随机节点。  
+<p align="center">
+<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/Hadoop%E9%9D%A2%E8%AF%95%E9%A2%98Pics/HDFS%E6%96%87%E6%A1%A3-Pics/%E6%9C%BA%E6%9E%B6%E6%84%9F%E7%9F%A52.png"/>  
+<p align="center">
+</p>
+</p>  
+
+**2、HDFS的读数据流程**  
+<p align="center">
+<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/Hadoop%E9%9D%A2%E8%AF%95%E9%A2%98Pics/HDFS%E6%96%87%E6%A1%A3-Pics/HDFS%E7%9A%84%E8%AF%BB%E6%95%B0%E6%8D%AE%E6%B5%81%E7%A8%8B.png"/>  
+<p align="center">
+</p>
+</p>  
+
+步骤：  
+&emsp; 1）客户端通过Distributed FileSystem向NameNode请求下载文件，NameNode通过查询元数据，找到文件块所在的DataNode地址。   
+&emsp; 2）挑选一台DataNode（就近原则，然后随机）服务器，请求读取数据。   
+&emsp; 3）DataNode开始传输数据给客户端（从磁盘里面读取数据输入流，以packet为单位来做校验）。   
+&emsp; 4）客户端以packet为单位接收，先在本地缓存，然后写入目标文件。  
 
 
 
