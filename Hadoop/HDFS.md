@@ -53,6 +53,7 @@ Hadoop——HDFS
 &emsp; （1）辅助NameNode，分担其工作量；         
 &emsp; （2）定期合并Fsimage和Edits，并推送给NameNode；         
 &emsp; （3）在紧急情况下，可辅助恢复NameNode。  
+&emsp; [NameNode、Secondary NameNode、DataNode工作机制详解](https://github.com/Dr11ft/BigDataGuide/blob/master/Hadoop/NN%E3%80%812NN%E3%80%81DN%E5%B7%A5%E4%BD%9C%E6%9C%BA%E5%88%B6.md)  
 
 ## 二、HDFS数据流
 **1、HDFS的写数据流程**
