@@ -19,6 +19,7 @@
 大数据框架组件
 ---
 ### 一、Hadoop
+&emsp; 1.[Hadoop——分布式文件管理系统HDFS](https://github.com/Dr11ft/BigDataGuide/blob/master/Hadoop/HDFS.md)   
 
 ### 二、Zookeeper
 
