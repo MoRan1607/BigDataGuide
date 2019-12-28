@@ -21,6 +21,7 @@
 ### 一、Hadoop
 &emsp; 1.[Hadoop——分布式文件管理系统HDFS](https://github.com/Dr11ft/BigDataGuide/blob/master/Hadoop/HDFS.md)   
 &emsp; 2.[Hadoop——HDFS的Shell操作](https://github.com/Dr11ft/BigDataGuide/blob/master/Hadoop/HDFS%E7%9A%84Shell%E6%93%8D%E4%BD%9C.md)   
+&emsp; 3.[Hadoop——HDFS的Java API操作](https://github.com/Dr11ft/BigDataGuide/blob/master/Hadoop/HDFS%E7%9A%84Java%20API%E6%93%8D%E4%BD%9C.md)   
 
 ### 二、Zookeeper
 
