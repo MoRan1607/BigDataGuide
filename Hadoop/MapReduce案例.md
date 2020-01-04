@@ -217,7 +217,7 @@ hadoop jar jar包名称 Driver类 数据输入路径 数据输出路径
 ### 3.2、数据清洗案例  
 &emsp; 需求：去除日志中字段长度小于等于11的日志。  
 输入数据：  
-
+&emsp; [数据源](https://github.com/Dr11ft/BigDataGuide/tree/master/Hadoop/MR%E6%A1%88%E4%BE%8B%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E6%95%B0%E6%8D%AE)  
 期望输出数据：  
 &emsp; 每行字段长度都大于11。（实际通过计数器计数：符合要求的为true，不符合的为false）  
 需求分析：  
