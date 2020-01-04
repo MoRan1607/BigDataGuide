@@ -214,7 +214,89 @@ hadoop jar jar包名称 Driver类 数据输入路径 数据输出路径
 ```
 &emsp; 得到输出结果即可。  
 
+### 3.2、数据清洗案例  
+&emsp; 需求：去除日志中字段长度小于等于11的日志。  
+输入数据：  
 
+期望输出数据：  
+&emsp; 每行字段长度都大于11。（实际通过计数器计数：符合要求的为true，不符合的为false）  
+需求分析：  
+&emsp; 需要在Map阶段对输入的数据根据规则进行过滤清洗。  
+
+**代码**：  
+1）**编写LogParseMapper类**  
+```java
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+import java.io.IOException;
+public class LogParseMapper extends Mapper<LongWritable, Text, Text, NullWritable> {
+    Text k = new Text();
+    @Override
+    protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+        String line = value.toString();
+        boolean result = LogParse(line, context);
+        if (!result) {
+            return;
+        }
+        k.set(line);
+        context.write(k, NullWritable.get());
+    }
+    private boolean LogParse(String line, Context context) {
+        String[] fields = line.split(" ");
+        if (fields.length > 11) {
+            context.getCounter("map", "true").increment(1);
+            return true;
+        }
+        context.getCounter("map", "false").increment(1);
+        return false;
+    }
+}
+```
+
+2）**编写LogParseDriver类**  
+```java
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+public class LogParseDriver {
+    public static void main(String[] args) throws Exception {
+        //输入输出路径需要根据自己电脑上实际的输入输出路径设置
+        args = new String[] { "path1", "path2" };
+
+        //连接客户端
+        Configuration configuration = new Configuration();
+        Job job = Job.getInstance(configuration);
+
+        //提交job的class
+        job.setJarByClass(LogParseDriver.class);
+
+        //提交map的class
+        job.setMapperClass(LogParseMapper.class);
+
+        //map最后输出状态
+        job.setMapOutputKeyClass(Text.class);
+        job.setMapOutputValueClass(NullWritable.class);
+
+        //数据输入输出路径
+        FileInputFormat.setInputPaths(job, new Path(args[0]));
+        FileOutputFormat.setOutputPath(job, new Path(args[1]));
+
+        //map端join不需要reduce极端，设置reducetask数量为0
+        job.setNumReduceTasks(0);
+        boolean result = job.waitForCompletion(true);
+        System.exit(result ? 0 : 1);
+    }
+}
+```
+
+输出：  
+&emsp; 设置好输入输出路径，运行代码即可得到结果  
 
 
 
