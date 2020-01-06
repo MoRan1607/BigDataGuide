@@ -77,3 +77,12 @@ https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Zookeeper%
 &emsp; 6.[Spark面试题总结（六）——Shuffle配置调优](https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Spark%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/Spark%E8%B0%83%E4%BC%98/Shuffle%E9%85%8D%E7%BD%AE%E8%B0%83%E4%BC%98.md)  
 &emsp; 7.[Spark面试题总结（七）——程序开发调优](https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Spark%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/Spark%E8%B0%83%E4%BC%98/%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E8%B0%83%E4%BC%98.md)  
 &emsp; 8.[Spark面试题总结（八）——运行资源调优](https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Spark%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/Spark%E8%B0%83%E4%BC%98/%E8%B5%84%E6%BA%90%E8%B0%83%E4%BC%98.md)  
+
+
+## 交流群建好了，进群的小伙伴可以加我微信：**MoRan1607**  
+<p align="center">
+<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E5%BE%AE%E4%BF%A1.jpg"/>  
+<p align="center">
+</p>
+</p>  
+
