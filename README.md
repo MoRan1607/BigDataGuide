@@ -81,7 +81,7 @@ https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Zookeeper%
 
 ## 交流群建好了，进群的小伙伴可以加我微信：**MoRan1607**  
 <p align="center">
-<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E5%BE%AE%E4%BF%A1.jpg" width="1000" height="600"/>  
+<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E5%BE%AE%E4%BF%A1.jpg" width="200" height="200"/>  
 <p align="center">
 </p>
 </p>  
