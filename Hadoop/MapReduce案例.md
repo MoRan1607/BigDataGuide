@@ -1,4 +1,4 @@
-## 案例实操
+## MapReduce案例实操
 ### 1、MapReduce核心编程思想
 &emsp; 1）分布式的运算程序往往需要分成至少2个阶段  
 &emsp; 2）第一个阶段的maptask并发实例，完全并行运行，互不相干  
@@ -266,40 +266,4 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 public class LogParseDriver {
     public static void main(String[] args) throws Exception {
-        //输入输出路径需要根据自己电脑上实际的输入输出路径设置
-        args = new String[] { "path1", "path2" };
-
-        //连接客户端
-        Configuration configuration = new Configuration();
-        Job job = Job.getInstance(configuration);
-
-        //提交job的class
-        job.setJarByClass(LogParseDriver.class);
-
-        //提交map的class
-        job.setMapperClass(LogParseMapper.class);
-
-        //map最后输出状态
-        job.setMapOutputKeyClass(Text.class);
-        job.setMapOutputValueClass(NullWritable.class);
-
-        //数据输入输出路径
-        FileInputFormat.setInputPaths(job, new Path(args[0]));
-        FileOutputFormat.setOutputPath(job, new Path(args[1]));
-
-        //map端join不需要reduce极端，设置reducetask数量为0
-        job.setNumReduceTasks(0);
-        boolean result = job.waitForCompletion(true);
-        System.exit(result ? 0 : 1);
-    }
-}
-```
-
-输出：  
-&emsp; 设置好输入输出路径，运行代码即可得到结果  
-
-
-
-
-
-
+        //输入输出路径需要根据自己
