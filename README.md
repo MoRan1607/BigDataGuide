@@ -24,6 +24,7 @@
 &emsp; 3.[Hadoop——HDFS的Java API操作](https://github.com/Dr11ft/BigDataGuide/blob/master/Hadoop/HDFS%E7%9A%84Java%20API%E6%93%8D%E4%BD%9C.md)   
 &emsp; 4.[Hadoop——分布式计算框架MapReduce](https://github.com/Dr11ft/BigDataGuide/blob/master/Hadoop/MapReduce.md)   
 &emsp; 5.[Hadoop——MapReduce案例](https://github.com/Dr11ft/BigDataGuide/blob/master/Hadoop/MapReduce%E6%A1%88%E4%BE%8B.md)   
+&emsp; 6.[Hadoop——Hadoop数据压缩](https://github.com/Dr11ft/BigDataGuide/blob/master/Hadoop/Hadoop%E6%95%B0%E6%8D%AE%E5%8E%8B%E7%BC%A9.md)   
 
 ### 二、Zookeeper
 
