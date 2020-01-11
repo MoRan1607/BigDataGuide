@@ -23,7 +23,7 @@ Hadoop——数据压缩
 <p align="center">
 </p>
 </p>  
-&emsp; On a single core of a Core i7 processor in 64-bit mode, **Snappy compresses** at about **250 MB/sec** or more and **decompresses** at about **500 MB/sec** or more.  
+&emsp; On a single core of a Core i7 processor in 64-bit mode, **Snappy compresses at about 250 MB/sec** or more and **decompresses at about 500 MB/sec** or more.  
 
 ### 3、压缩方式选择
 1）**Gzip压缩**  
