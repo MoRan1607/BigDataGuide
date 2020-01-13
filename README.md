@@ -1,6 +1,8 @@
 大数据学习指南
 ===
 >大数据学习指南，从零开始学习大数据开发，包含大数据学习各个阶段资汇总
+  
+### [大数据学习or转型的一些建议](https://github.com/Dr11ft/BigDataGuide/blob/master/Docs/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%AD%A6%E4%B9%A0or%E8%BD%AC%E5%9E%8B.md)  
 
 概述
 ---
