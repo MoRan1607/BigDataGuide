@@ -30,6 +30,7 @@
 &emsp; 7.[Hadoop——Hadoop数据压缩](https://github.com/Dr11ft/BigDataGuide/blob/master/Hadoop/Hadoop%E6%95%B0%E6%8D%AE%E5%8E%8B%E7%BC%A9.md)   
 
 ### 二、Zookeeper
+&emsp; 1.[Zookeeper——Zookeeper介绍](https://github.com/Dr11ft/BigDataGuide/blob/master/Zookeeper/Zookeeper%EF%BC%88%E4%B8%80%EF%BC%89.md)   
 
 ### 三、Hive
 
