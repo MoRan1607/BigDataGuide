@@ -46,7 +46,7 @@ Zookeeper介绍
 </p>
 </p>  
 
-2）`统一配置管理`  
+2）**`统一配置管理`**  
 &emsp; 分布式环境下，配置文件管理和同步是一个常见问题。  
 &emsp; &emsp; （1）一个集群中，所有节点的配置信息是一致的，比如 Hadoop 集群。   
 &emsp; &emsp; （2）对配置文件修改后，希望能够快速同步到各个节点上。  
@@ -60,7 +60,7 @@ Zookeeper介绍
 </p>
 </p>  
 
-3）`统一集群管理`  
+3）**`统一集群管理`**  
 &emsp; 分布式环境中，实时掌握每个节点的状态是必要的。  
 &emsp; &emsp; （1）可根据节点实时状态做出一些调整。   
 &emsp; 可交由ZooKeeper实现。   
@@ -74,7 +74,7 @@ Zookeeper介绍
 </p>
 </p>  
 
-4）`服务器动态上下线`  
+4）**`服务器动态上下线`**  
 &emsp; 客户端能实时洞察到服务器上下线的变化  
 <p align="center">
 <img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/ZK%E6%96%87%E6%A1%A3Pics/%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8A%A8%E6%80%81%E4%B8%8A%E4%B8%8B%E7%BA%BF.png"/>  
@@ -82,7 +82,7 @@ Zookeeper介绍
 </p>
 </p>  
 
-5）`软负载均衡`  
+5）**`软负载均衡`**  
 &emsp; 在Zookeeper中记录每台服务器的访问数，让访问数最少的服务器去处理最新的客户端请求  
 <p align="center">
 <img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/ZK%E6%96%87%E6%A1%A3Pics/%E8%BD%AF%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1.png"/>  
