@@ -19,14 +19,14 @@ Zookeeper介绍
 &emsp; 1）Zookeeper：一个领导者（leader），多个跟随者（follower）组成的集群。  
 &emsp; 2）Leader：负责进行投票的发起和决议，更新系统状态。   
 &emsp; 3）Follower：用于接收客户请求并向客户端返回结果，在选举Leader过程中参与投票。   
-&emsp; 4）集群中只要有半数以上节点存活，Zookeeper集群就能正常服务。   
+&emsp; 4）**集群中只要有半数以上节点存活，Zookeeper集群就能正常服务**。   
 &emsp; 5）全局数据一致：每个server保存一份相同的数据副本，client无论连接到哪个server，数据都是一致的。    
 &emsp; 6）更新请求顺序进行，来自同一个client的更新请求按其发送顺序依次执行。    
 &emsp; 7）数据更新原子性，一次数据更新要么成功，要么失败。   
 &emsp; 8）实时性，在一定时间范围内，client能读到最新数据。  
   
 ### 3、数据结构
-&emsp; ZooKeeper数据模型的结构与Unix文件系统很类似，整体上可以看作是一棵树，每个节点称做一个ZNode。每一个znode默认能够存储1MB的数据，每个ZNode都可以通过其路径唯一标识。   
+&emsp; ZooKeeper数据模型的结构**与Unix文件系统很类似**，整体上可以看作是一棵树，每个节点称做一个ZNode。每**一个znode默认能够存储1MB的数据**，每个ZNode都可以**通过其路径唯一标识**。   
 <p align="center">
 <img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/ZK%E6%96%87%E6%A1%A3Pics/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.png"/>  
 <p align="center">
@@ -34,7 +34,7 @@ Zookeeper介绍
 </p>  
 
 ### 4、应用场景
-&emsp; 提供的服务包括：`统一命名服务`、`统一配置管理`、`统一集群管理`、`服务器节点动态上下线`、`软负载均衡`等。  
+&emsp; 提供的服务包括：**`统一命名服务`**、**`统一配置管理`**、**`统一集群管理`**、**`服务器节点动态上下线`**、`**软负载均衡`**等。  
 
 1）**`统一命名服务`**  
 &emsp; 在分布式环境下，经常需要对应用/服务进行统一命名，便于识别不同服务。  
