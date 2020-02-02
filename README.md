@@ -39,6 +39,7 @@
 ### 四、Flume
 &emsp; 1.[Flume——Flume概述](https://github.com/Dr11ft/BigDataGuide/blob/master/Flume/1%E3%80%81Flume%E6%A6%82%E8%BF%B0.md)   
 &emsp; 2.[Flume——Flume实践操作](https://github.com/Dr11ft/BigDataGuide/blob/master/Flume/2%E3%80%81Flume%E5%AE%9E%E8%B7%B5%E6%93%8D%E4%BD%9C.md)   
+&emsp; 3.[Flume——Flume案例](https://github.com/Dr11ft/BigDataGuide/blob/master/Flume/3%E3%80%81Flume%E6%A1%88%E4%BE%8B.md)   
 
 ### 五、Kafka
 
