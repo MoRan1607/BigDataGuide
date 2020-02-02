@@ -34,6 +34,7 @@
 
 ### 三、Hive
 &emsp; 1.[Hive——Hive概述](https://github.com/Dr11ft/BigDataGuide/blob/master/Hive/1%E3%80%81Hive%E6%A6%82%E8%BF%B0.md)   
+&emsp; 2.[Hive——Hive数据类型](https://github.com/Dr11ft/BigDataGuide/blob/master/Hive/2%E3%80%81Hive%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)   
 
 ### 四、Flume
 
