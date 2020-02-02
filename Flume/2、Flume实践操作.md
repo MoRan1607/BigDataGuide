@@ -2,7 +2,7 @@
 ---
 ### 1、概述
 &emsp; Source是负责接收数据到Flume Agent的组件。Source组件可以处理各种类型、各种格式的日志数据，包括avro、thrift、exec、jms、spooling directory、netcat、sequence generator、syslog、http、legacy。官方提供的source类型已经很多，但是有时候并不能满足实际开发当中的需求，此时我们就需要根据实际需求自定义某些source。  
-&emsp; 官方也提供了自定义source的接口：https://flume.apache.org/FlumeDeveloperGuide.html#source根据官方说明自定义MySource需要继承AbstractSource类并实现Configurable和PollableSource接口。  
+&emsp; 官方也提供了自定义source的接口：https://flume.apache.org/FlumeDeveloperGuide.html#source 根据官方说明自定义MySource需要继承AbstractSource类并实现Configurable和PollableSource接口。  
 &emsp; 实现相应方法：  
 ```java
 &emsp; &emsp; getBackOffSleepIncrement()&emsp; //暂不用  
