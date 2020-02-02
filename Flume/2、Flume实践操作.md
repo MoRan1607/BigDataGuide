@@ -5,10 +5,10 @@
 &emsp; 官方也提供了自定义source的接口：https://flume.apache.org/FlumeDeveloperGuide.html#source 根据官方说明自定义MySource需要继承AbstractSource类并实现Configurable和PollableSource接口。  
 &emsp; 实现相应方法：  
 ```java
-&emsp; &emsp; getBackOffSleepIncrement()&emsp; //暂不用  
-&emsp; &emsp; getMaxBackOffSleepInterval()&emsp; //暂不用  
-&emsp; &emsp; configure(Context context)&emsp; //初始化context（读取配置文件内容）  
-&emsp; &emsp; process()&emsp; //获取数据封装成event并写入channel，**这个方法将被循环调用**。  
+getBackOffSleepIncrement() //暂不用  
+getMaxBackOffSleepInterval() //暂不用  
+configure(Context context) //初始化context（读取配置文件内容）  
+process() //获取数据封装成event并写入channel，**这个方法将被循环调用**。  
 ```  
 &emsp; **使用场景**：读取MySQL数据或者其他文件系统。  
 
