@@ -42,6 +42,7 @@
 &emsp; 3.[Flume——Flume案例](https://github.com/Dr11ft/BigDataGuide/blob/master/Flume/3%E3%80%81Flume%E6%A1%88%E4%BE%8B.md)   
 
 ### 五、Kafka
+&emsp; 1.[Kafka——Kafka概述](https://github.com/Dr11ft/BigDataGuide/blob/master/Kafka/1%E3%80%81Kafka%E6%A6%82%E8%BF%B0.md)   
 
 ### 六、HBase
 
