@@ -43,6 +43,7 @@
 
 ### 五、Kafka
 &emsp; 1.[Kafka——Kafka概述](https://github.com/Dr11ft/BigDataGuide/blob/master/Kafka/1%E3%80%81Kafka%E6%A6%82%E8%BF%B0.md)   
+&emsp; 2.[Kafka——Kafka深入解析](https://github.com/Dr11ft/BigDataGuide/blob/master/Kafka/2%E3%80%81Kafka%E6%B7%B1%E5%85%A5%E8%A7%A3%E6%9E%90.md)   
 
 ### 六、HBase
 
