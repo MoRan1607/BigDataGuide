@@ -49,6 +49,8 @@
 ### 六、HBase
 &emsp; 1.[HBase——HBase概述](https://github.com/Dr11ft/BigDataGuide/blob/master/HBase/1%E3%80%81HBase%E6%A6%82%E8%BF%B0.md)   
 &emsp; 2.[HBase——HBase数据结构](https://github.com/Dr11ft/BigDataGuide/blob/master/HBase/2%E3%80%81HBase%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)   
+&emsp; 3.[HBase——HBase Shell操作](https://github.com/Dr11ft/BigDataGuide/blob/master/HBase/3%E3%80%81HBase%20Shell%E6%93%8D%E4%BD%9C.md)   
+&emsp; 4.[HBase——HBase API实践操作](https://github.com/Dr11ft/BigDataGuide/blob/master/HBase/4%E3%80%81HBase%20API%E5%AE%9E%E8%B7%B5%E6%93%8D%E4%BD%9C.md)   
 
 ### 七、Spark
 
