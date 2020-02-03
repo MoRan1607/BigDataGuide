@@ -120,7 +120,7 @@ Kafka选择了第二种方案，原因如下：
 &emsp; Kafka有两种分配策略：**RoundRobin和Range**。  
 （1）**`RoundRobin`**  
 <p align="center">
-<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/Kafka%E6%96%87%E6%A1%A3Pics/Kafka%E6%B7%B1%E5%85%A5%E8%A7%A3%E6%9E%90/RoundRobin.png/>  
+<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/Kafka%E6%96%87%E6%A1%A3Pics/Kafka%E6%B7%B1%E5%85%A5%E8%A7%A3%E6%9E%90/RoundRobin.png"/>  
 <p align="center">
 </p>
 </p>  
