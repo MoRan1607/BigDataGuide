@@ -58,6 +58,8 @@
 &emsp; 2.[Spark基础——Spark概述](https://github.com/Dr11ft/BigDataGuide/blob/master/Spark/2%E3%80%81Spark%E6%A6%82%E8%BF%B0.md)   
 &emsp; 3.[Spark基础——Spark运行模式](https://github.com/Dr11ft/BigDataGuide/blob/master/Spark/3%E3%80%81Spark%E8%BF%90%E8%A1%8C%E6%A8%A1%E5%BC%8F.md)   
 &emsp; 4.[Spark基础——案例实践](https://github.com/Dr11ft/BigDataGuide/blob/master/Spark/2%E3%80%81Spark%E6%A6%82%E8%BF%B0.md)   
+#### Spark Core  
+&emsp; 1.[Spark Core——RDD概述](https://github.com/Dr11ft/BigDataGuide/blob/master/Spark/Spark%20Core/1%E3%80%81RDD%E6%A6%82%E8%BF%B0.md)   
 
 ### 八、Flink
 
