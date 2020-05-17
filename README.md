@@ -105,7 +105,7 @@ https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Zookeeper%
 
 
 ## 公众号
-如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号：旧时光大数据  
+如果大家想要关注我分享的更多大数据干货的话，可以关注我的公众号：**旧时光大数据**  
 “大数据学习路线”中我自己看过的视频、文档资料可以直接在公众号获取相关云盘链接  
 <p align="center">
 <img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" width="200" height="200"/>  
