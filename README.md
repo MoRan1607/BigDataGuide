@@ -17,8 +17,9 @@
 
 完全分布式集群搭建
 ---
-&emsp; 可以参考我的博客，按照顺序进行操作即可  
-&emsp; 1.[集群搭建](https://blog.csdn.net/qq_41544550/category_9458240.html)  
+&emsp; [完全分布式集群搭建](https://github.com/Dr11ft/BigDataGuide/blob/master/Hadoop/%E5%88%86%E5%B8%83%E5%BC%8F%E9%9B%86%E7%BE%A4%E6%90%AD%E5%BB%BA.md)  
+&emsp; 关于VM、远程登录工具的安装暂时可以参考我的博客，找到相应步骤进行操作即可  
+&emsp; [集群搭建](https://blog.csdn.net/qq_41544550/category_9458240.html)  
 
 大数据框架组件
 ---
