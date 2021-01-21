@@ -33,7 +33,7 @@
 &emsp; 3. [尚硅谷宋红康版](https://www.bilibili.com/video/BV1Kb411W75N?from=search&seid=9321658006825735818)   
 
 #### 2、Scala  
-毋庸置疑，韩顺平老师的，通俗易懂，适合入门，但是不适合继续了解Scala的，如果时间短，建议直接看配套Spark的那种三五天的，可以快速了解，后期有时间再好好看一遍韩顺平老师的这个视频  
+毋庸置疑，韩顺平老师的，通俗易懂，适合入门，但是不适合急需了解Scala的，如果时间短，建议直接看配套Spark的那种三五天的，可以快速了解，后期有时间再好好看一遍韩顺平老师的这个视频  
 &emsp; 1. [韩顺平老师版](https://www.bilibili.com/video/BV1Mp4y1e7B5?from=search&seid=5450215228532207134)   
 
 #### 3、Python  
