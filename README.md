@@ -1,6 +1,13 @@
 ### 最近开始新一轮更新：包括一些视频链接和文档，把一些基础的内容也尽量补齐，避免还要再次找其它资料
-### 大数据框架组件会慢慢更新一些新的内容，比如Hadoop3.X版本，Spark3.X版本等，不过我要自己先看看视频质量，后续再补全
-### 可能这段时间README部分会有点乱~~~~~~  
+### 大数据面试题PDF版V1.0已经总结完，公众号(旧时光大数据)后台回复“大数据面试题”，进百度云盘群保存即可
+
+### [大数据面试题PDF版](https://blog.csdn.net/qq_41544550/article/details/109270369)  
+<p align="center">
+<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E8%AF%95%E9%A2%98.jpg"/>  
+<p align="center">
+</p>
+</p>  
+
 &emsp;   
 大数据学习指南
 ===
