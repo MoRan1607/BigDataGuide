@@ -319,6 +319,8 @@ public class ProvincePartitioner extends Partitioner<Text, FlowBean> {
 &emsp; （2）在驱动函数中加载缓存。   
 &emsp; &emsp; 缓存普通文件到Task运行节点。   
 &emsp; &emsp; **job.addCacheFile(new URI("file:......"));**
+![image](https://user-images.githubusercontent.com/49975227/111029744-488af280-8439-11eb-9ce9-eb99886d8ec1.png)
+
 
 **Reduce Join**  
 1）原理  
