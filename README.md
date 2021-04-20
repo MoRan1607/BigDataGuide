@@ -54,6 +54,7 @@
 ### 三、Maven&Tomcat  
 这两部分其实看博客也不错，不过通过视频就更容易理解，不多说了，B站白嫖起来。**还是那句话，这部分也可以等你做项目或者接触到这些的时候再回头来看**    
 &emsp; 1. [Maven&Tomcat](https://www.bilibili.com/video/BV1Ta4y1H7Vc?from=search&seid=5681709635823116908)   
+&emsp; 2. [Maven原理解析及实践](https://blog.csdn.net/qq_41544550/article/details/115874967?spm=1001.2014.3001.5501)   
 
 ---
 
