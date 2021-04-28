@@ -77,6 +77,7 @@
 
 ### 二、Zookeeper
 &emsp; 1.[Zookeeper——Zookeeper概述](https://github.com/Dr11ft/BigDataGuide/blob/master/Zookeeper/Zookeeper%EF%BC%88%E4%B8%80%EF%BC%89.md)   
+&emsp; 2.[Zookeeper——Zookeeper单机和分布式安装](https://github.com/Dr11ft/BigDataGuide/blob/master/Zookeeper/Zookeeper%EF%BC%88%E4%BA%8C%EF%BC%89.md)   
 
 ### 三、Hive
 &emsp; 1.[Hive——Hive概述](https://github.com/Dr11ft/BigDataGuide/blob/master/Hive/1%E3%80%81Hive%E6%A6%82%E8%BF%B0.md)   
