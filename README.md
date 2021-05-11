@@ -116,7 +116,7 @@
 
 数据仓库
 ---   
-&emsp; [数据仓库](https://zhuanlan.zhihu.com/p/371365562)  
+&emsp; [数据仓库总结](https://zhuanlan.zhihu.com/p/371365562)  
 
 面试题
 ---
