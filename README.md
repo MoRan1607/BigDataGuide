@@ -15,6 +15,15 @@
 ### [大数据学习or转型的一些建议](https://github.com/Dr11ft/BigDataGuide/blob/master/Docs/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%AD%A6%E4%B9%A0or%E8%BD%AC%E5%9E%8B.md)  
 ### [GitHub图片不显示解决方案](https://blog.csdn.net/qq_41544550/article/details/106218291)  
 
+## 公众号
+关注我的公众号：**旧时光大数据**，回复相应关键字，获取更多大数据干货、资料  
+“大数据学习路线”中我自己看过的视频、文档资料可以直接在公众号获取云盘链接  
+<p align="center">
+<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" width="150" height="150"/>  
+<p align="center">
+</p>
+</p>  
+
 概述
 ---
 &emsp; 1.[大数据简介](https://github.com/Dr11ft/BigDataGuide/blob/master/Docs/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%AE%80%E4%BB%8B.md)  
@@ -148,16 +157,6 @@ https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Zookeeper%
 &emsp; 6.[Spark面试题总结（六）——Shuffle配置调优](https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Spark%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/Spark%E8%B0%83%E4%BC%98/Shuffle%E9%85%8D%E7%BD%AE%E8%B0%83%E4%BC%98.md)  
 &emsp; 7.[Spark面试题总结（七）——程序开发调优](https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Spark%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/Spark%E8%B0%83%E4%BC%98/%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E8%B0%83%E4%BC%98.md)  
 &emsp; 8.[Spark面试题总结（八）——运行资源调优](https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Spark%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/Spark%E8%B0%83%E4%BC%98/%E8%B5%84%E6%BA%90%E8%B0%83%E4%BC%98.md)  
-
-
-## 公众号
-如果大家想要关注我分享的更多大数据干货的话，可以关注我的公众号：**旧时光大数据**  
-“大数据学习路线”中我自己看过的视频、文档资料可以直接在公众号获取相关云盘链接  
-<p align="center">
-<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" width="200" height="200"/>  
-<p align="center">
-</p>
-</p>  
 
 ## 交流群
 交流群建好了，进群的小伙伴可以加我微信：**MoRan1607，备注：GitHub**  
