@@ -47,12 +47,12 @@ load data local inpath '/opt/module/data/city_info.txt' into table sparkpractice
 </p>  
 
 #### 2.2 思路分析  
-1）使用sql来完成，碰到复杂的需求，可以使用udf或udaf  
-2）查询出来所有的点击记录，并与city_info表连接，得到每个城市所在的地区，与Product_info表连接得到产品名称  
-3）按照地区和商品名称分组，统计出每个商品在每个地区的总点击次数  
-4）每个地区内按照点击次数降序排列  
-5）只取前三名，并把结果保存在数据库中  
-6）城市备注需要自定义UDAF函数   
+&emsp; 1）使用sql来完成，碰到复杂的需求，可以使用udf或udaf  
+&emsp; 2）查询出来所有的点击记录，并与city_info表连接，得到每个城市所在的地区，与Product_info表连接得到产品名称  
+&emsp; 3）按照地区和商品名称分组，统计出每个商品在每个地区的总点击次数  
+&emsp; 4）每个地区内按照点击次数降序排列  
+&emsp; 5）只取前三名，并把结果保存在数据库中  
+&emsp; 6）城市备注需要自定义UDAF函数   
 
 #### 2.3 代码实现  
 &emsp; 1）UDAF函数定义   
