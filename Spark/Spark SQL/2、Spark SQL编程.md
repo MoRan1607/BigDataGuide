@@ -135,6 +135,48 @@ scala> df.groupBy("age").count.show
 | 20|    1|
 +---+-----+
 ```    
+#### 2.4 RDD转换为DataFrame  
+&emsp; 在 IDEA 中开发程序时，如果需要RDD 与DF 或者DS 之间互相操作，那么需要引入import spark.implicits._。  
+&emsp; 这里的spark不是Scala中的包名，而是创建的sparkSession 对象的变量名称，所以必须先创建 SparkSession 对象再导入。这里的 spark 对象不能使用var 声明，因为 Scala 只支持val 修饰的对象的引入。  
+&emsp; spark-shell 中无需导入，自动完成此操作。  
+```scala
+scala> val idRDD = sc.textFile("data/id.txt") scala> idRDD.toDF("id").show
++---+
+| id|
++---+
+| 1|
+| 2|
+| 3|
+| 4|
++---+
+```    
+&emsp; **实际开发中，一般通过样例类将RDD转换为DataFrame。**  
+```scala
+scala> case class User(name:String, age:Int) defined class User
+scala> sc.makeRDD(List(("zhangsan",30), ("lisi",40))).map(t=>User(t._1, t._2)).toDF.show
++--------+---+
+|	name|age|
++--------+---+
+```    
+#### 2.5 DataFrame转换为RDD  
+&emsp; DataFrame其实就是对RDD的封装，所以可以直接获取内部的RDD  
+```scala
+scala> val df = sc.makeRDD(List(("zhangsan",30), ("lisi",40))).map(t=>User(t._1, t._2)).toDF
+df: org.apache.spark.sql.DataFrame = [name: string, age: int]
+
+scala> val rdd = df.rdd
+rdd: org.apache.spark.rdd.RDD[org.apache.spark.sql.Row] = MapPartitionsRDD[46] at rdd at <console>:25
+
+scala> val array = rdd.collect
+array: Array[org.apache.spark.sql.Row] = Array([zhangsan,30], [lisi,40])
+```    
+&emsp; **注意：此时得到的RDD存储类型为Row**  
+```scala
+scala> array(0)
+res28: org.apache.spark.sql.Row = [zhangsan,30] scala> array(0)(0)
+res29: Any = zhangsan
+scala> array(0).getAs[String]("name") res30: String = zhangsan
+```    
 
 ### 3、DataSet  
 &emsp; DataSet是具有强类型的数据集合，需要提供对应的类型信息。  
