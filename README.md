@@ -112,6 +112,8 @@ Linux部分
 &emsp; 3.[Spark Core——RDD编程（二）](https://github.com/Dr11ft/BigDataGuide/blob/master/Spark/Spark%20Core/3%E3%80%81RDD%E7%BC%96%E7%A8%8B%EF%BC%882%EF%BC%89.md)  
 &emsp; 4.[Spark Core——键值对RDD数据分区器](https://github.com/Dr11ft/BigDataGuide/blob/master/Spark/Spark%20Core/4%E3%80%81%E9%94%AE%E5%80%BC%E5%AF%B9RDD%E6%95%B0%E6%8D%AE%E5%88%86%E5%8C%BA%E5%99%A8.md)  
 &emsp; 5.[Spark Core——数据读取与保存](https://github.com/Dr11ft/BigDataGuide/blob/master/Spark/Spark%20Core/5%E3%80%81%E6%95%B0%E6%8D%AE%E8%AF%BB%E5%8F%96%E4%B8%8E%E4%BF%9D%E5%AD%98.md)  
+#### Spark SQL  
+&emsp; 1.[Spark SQL——Spaek SQL概述](https://github.com/Dr11ft/BigDataGuide/blob/master/Spark/Spark%20SQL/1%E3%80%81Spark%20SQL%E6%A6%82%E8%BF%B0.md)   
 
 ### 八、Flink
 
