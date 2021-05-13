@@ -1,4 +1,3 @@
-### 最近开始新一轮更新：包括一些视频链接和文档，把一些基础的内容也尽量补齐，避免还要再次找其它资料
 ### 大数据面试题PDF版V1.0已经总结完，点击下方链接，进百度云盘群保存即可
 
 ### [大数据面试题PDF版](https://blog.csdn.net/qq_41544550/article/details/109270369)  
@@ -29,31 +28,24 @@
 基础部分
 ---  
 ### 一、编程语言  
-编程语言部分我是把我学的、用的都放在上面了，Java是基础，Scala是后续方便学习Spark和Flink，也是为了迎合以后发展需要，Python这门语言不会感觉确实是个遗憾，所以。。。我就都放上来了（哈哈），**前期有Java基础就可以了，其它的后面需要时再补**，上手也很快的。（别问我怎么学，问就是使劲拼命学 [ 吃瓜.jpg ]）  
-#### 1、JavaSE  
-刘意2015版是我初学时看过的，很经典，有的人可能觉得15年的视频过时了，不过我2020年写完毕业论文后又二刷了一遍（没啥想法，当时就当看剧了~），还是觉得很好，该讲的基础都讲到了，很适合入门。当然，如果是要直接使用IDEA的话，建议看刘意老师2019年版或者宋红康老师的，这两位老师的课程在B站都很受欢迎，**三选一**。  
+编程语言部分建议先JavaSE，Spark和Flink之前学习Scala，Python看个人或工作，不过有Java基础，Python会快很多（别问我怎么学，问就是使劲拼命学 [ 吃瓜.jpg ]）  
+#### 1、JavaSE（三选一）    
 &emsp; 1. [刘意2015版](https://www.bilibili.com/video/BV1pE41167Ye?from=search&seid=15100703070040994669)   
 &emsp; 2. [刘意2019版](https://www.bilibili.com/video/BV1gb411F76B?from=search&seid=16116797084076868427)   
 &emsp; 3. [尚硅谷宋红康版](https://www.bilibili.com/video/BV1Kb411W75N?from=search&seid=9321658006825735818)   
 
-#### 2、Scala  
-毋庸置疑，韩顺平老师的，通俗易懂，适合入门，但是不适合急需了解Scala的，如果时间短，建议直接看配套Spark的那种三五天的，可以快速了解，后期有时间再好好看一遍韩顺平老师的这个视频  
+#### 2、Scala（二选一）  
+如果时间短，建议直接看配套Spark的那种三五天的，可以快速了解  
 &emsp; 1. [韩顺平老师版](https://www.bilibili.com/video/BV1Mp4y1e7B5?from=search&seid=5450215228532207134)   
+&emsp; 2. [清华硕士武晟然老师版](https://www.bilibili.com/video/BV1Mp4y1e7B5?from=search&seid=5450215228532207134)   
 
 #### 3、Python  
-我比较喜欢黑马的Python视频，通俗易懂，而且文档比较齐全，有Java基础再看Python的话，我是下班后每天花1小时左右，20天左右吧，前面的直接看文档，后面一些特有语法看看视频就行，看完了就上手整起来~所以先学Java还是挺香的  
+推荐黑马的Python视频，通俗易懂，而且文档比较齐全，有Java基础再看Python的话，上手很快  
 &emsp; 1. [黑马Python版](https://www.bilibili.com/video/BV1C4411A7ej?from=search&seid=11669436417044703145)   
 
-#### 4、JDK8/9/10/11新特性
-这里还是推荐下尚硅谷的，白嫖真香 [ 狗头.jpg ]，前期看自己时间，后期再补也行吧。  
-&emsp; 1. [尚硅谷JDK新特性](https://www.bilibili.com/video/BV184411x7XA?from=search&seid=9546043748299613922)   
-
-### 二、Maven&Tomcat  
-这两部分其实看博客也不错，不过通过视频就更容易理解，不多说了，B站白嫖起来。**还是那句话，这部分也可以等你做项目或者接触到这些的时候再回头来看**    
-&emsp; 1. [Maven&Tomcat](https://www.bilibili.com/video/BV1Ta4y1H7Vc?from=search&seid=5681709635823116908)   
-&emsp; 2. [Maven原理解析及实践](https://blog.csdn.net/qq_41544550/article/details/115874967?spm=1001.2014.3001.5501)   
-
+Linux部分
 ---
+
 
 完全分布式集群搭建
 ---
