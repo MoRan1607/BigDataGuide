@@ -19,7 +19,7 @@
 关注我的公众号：**旧时光大数据**，回复相应关键字，获取更多大数据干货、资料  
 “大数据学习路线”中我自己看过的视频、文档资料可以直接在公众号获取云盘链接  
 <p align="center">
-<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" width="150" height="150"/>  
+<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" width="200" height="200"/>  
 <p align="center">
 </p>
 </p>  
