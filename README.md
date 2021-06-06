@@ -129,6 +129,16 @@ Linux部分
 ---   
 &emsp; [数据仓库总结](https://zhuanlan.zhihu.com/p/371365562)  
 
+大数据项目  
+---  
+&emsp; **基本上选择三到四个即可，B站直接搜索项目名字，都有视频**  
+&emsp; **详细说明公众号回复“大数据项目”即可**  
+<p align="center">
+<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E7%94%B5%E5%AD%90%E4%B9%A6%26%E9%A1%B9%E7%9B%AE/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%A1%B9%E7%9B%AE%E6%B6%89%E5%8F%8A%E6%A1%86%E6%9E%B6%E7%BB%84%E4%BB%B6.jpg"/>  
+<p align="center">
+</p>
+</p>  
+
 面试题
 ---
 #### 一、Hadoop
@@ -167,6 +177,23 @@ https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Zookeeper%
 &emsp; 6.[Spark面试题总结（六）——Shuffle配置调优](https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Spark%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/Spark%E8%B0%83%E4%BC%98/Shuffle%E9%85%8D%E7%BD%AE%E8%B0%83%E4%BC%98.md)  
 &emsp; 7.[Spark面试题总结（七）——程序开发调优](https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Spark%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/Spark%E8%B0%83%E4%BC%98/%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E8%B0%83%E4%BC%98.md)  
 &emsp; 8.[Spark面试题总结（八）——运行资源调优](https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Spark%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/Spark%E8%B0%83%E4%BC%98/%E8%B5%84%E6%BA%90%E8%B0%83%E4%BC%98.md)  
+
+大数据&后端书籍
+---   
+&emsp; **图片上的PDF书籍在公众号回复关键字“大数据书籍”或“Java书籍”自行进百度云盘群保存即可**  
+#### &emsp; 大数据书籍  
+<p align="center">
+<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E7%94%B5%E5%AD%90%E4%B9%A6%26%E9%A1%B9%E7%9B%AE/%E5%A4%A7%E6%95%B0%E6%8D%AE%E4%B9%A6%E6%9E%B6.png"/>  
+<p align="center">
+</p>
+</p>  
+
+#### &emsp; 后端书籍  
+<p align="center">
+<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E7%94%B5%E5%AD%90%E4%B9%A6%26%E9%A1%B9%E7%9B%AE/Java%E5%90%8E%E7%AB%AF%E4%B9%A6%E6%9E%B6.png"/>  
+<p align="center">
+</p>
+</p>  
 
 ## 交流群
 交流群建好了，进群的小伙伴可以加我微信：**MoRan1607，备注：GitHub**  
