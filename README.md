@@ -119,6 +119,8 @@ Linux部分
 &emsp; 4.[Spark SQL——Spaek SQL实战](https://github.com/Dr11ft/BigDataGuide/blob/master/Spark/Spark%20SQL/4%E3%80%81Spark%20SQL%E5%AE%9E%E6%88%98.md)   
 #### Spark Streaming    
 &emsp; 1.[Spark Streaming——Spark Streaming概述](https://github.com/Dr11ft/BigDataGuide/blob/master/Spark/Spark%20Streaming/1%E3%80%81Spark%20Streaming%E6%A6%82%E8%BF%B0.md)   
+&emsp; 2.[Spark Streaming——Dstream基础](https://github.com/Dr11ft/BigDataGuide/blob/master/Spark/Spark%20Streaming/2%E3%80%81Dstream%E5%9F%BA%E7%A1%80.md)   
+&emsp; 3.[Spark Streaming——Dstream的转换&输出](https://github.com/Dr11ft/BigDataGuide/blob/master/Spark/Spark%20Streaming/3%E3%80%81Dstream%E7%9A%84%E8%BD%AC%E6%8D%A2%26%E8%BE%93%E5%87%BA.md)   
 
 ### 八、Flink
 
