@@ -1,13 +1,3 @@
-### 大数据面试题PDF版V1.0已经总结完，点击下方链接，进百度云盘群保存即可
-
-### [大数据面试题PDF版](https://blog.csdn.net/qq_41544550/article/details/109270369)  
-<p align="center">
-<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E8%AF%95%E9%A2%98.jpg"/>  
-<p align="center">
-</p>
-</p>  
-
-&emsp;   
 大数据学习指南
 ===
 >大数据学习指南，从零开始学习大数据开发，包含大数据学习各个阶段资汇总
