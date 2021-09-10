@@ -125,6 +125,8 @@ Linux部分
 &emsp; 1.[Flink——Flink核心概述](https://github.com/Dr11ft/BigDataGuide/blob/master/Flink/1%E3%80%81Flink%E6%A6%82%E8%BF%B0.md)   
 &emsp; 2.[Flink——Flink部署](https://github.com/Dr11ft/BigDataGuide/blob/master/Flink/2%E3%80%81Flink%E9%83%A8%E7%BD%B2.md)   
 &emsp; 3.[Flink——Flink运行架构](https://github.com/Dr11ft/BigDataGuide/blob/master/Flink/3、Flink运行架构.md)   
+&emsp; 4.[Flink——Flink流处理API](https://github.com/Dr11ft/BigDataGuide/blob/master/Flink/4%E3%80%81Flink%E6%B5%81%E5%A4%84%E7%90%86API.md)   
+
 
 数据仓库
 ---   
