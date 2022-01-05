@@ -2,15 +2,6 @@
 ===
 >大数据学习指南，从零开始学习大数据开发，包含大数据学习各个阶段资汇总
   
->今天逛github时，突然发现自己的面试题直接原封不动的被盗用了，盗用者从来没联系过我，也没注明面试题出处，盗用者上面是7个月前，我的上面是2年前修改的，笑了，听说这人还是ali的，牛批啊，粘贴复制用的真66666
->实情如下图
-<p align="center">
-<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/66a7d6433037a2903cef026ba16c659.png"/>  
-<p align="center">
-</p>
-</p>  
-  
-  
 ### [大数据学习or转型的一些建议](https://github.com/Dr11ft/BigDataGuide/blob/master/Docs/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%AD%A6%E4%B9%A0or%E8%BD%AC%E5%9E%8B.md)  
 ### [GitHub图片不显示解决方案](https://blog.csdn.net/qq_41544550/article/details/106218291)  
 
