@@ -141,6 +141,8 @@ Linux部分
 面试题
 ---
 ### [大数据面试题 V2.0](https://mp.weixin.qq.com/s/hMcuDEkzH49rfSmGWy_GRg)  
+#### 一、Hadoop  
+[介绍下Hadoop](https://blog.csdn.net/qq_41544550/article/details/123031348)  
 
 ### 大数据面试 V1.0
 #### 一、Hadoop
