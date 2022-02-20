@@ -12,7 +12,7 @@ Hadoop 2.x和Hadoop 3.x组成上无变化，和Hadoop 1.x相比，增加了YARN�
 
 **3、Hadoop核心组件作用**  
 
-![Hadoop组成部分](Pictures/Hadoop-Hadoop组成部分.png)
+![Hadoop组成部分](https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Hadoop%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93/Hadoop/Pics/Hadoop-Hadoop%E7%BB%84%E6%88%90%E9%83%A8%E5%88%86.png)
 
 Hadoop主要组件如上图，主要是HDFS、MapReduce、YARN、Common
 
