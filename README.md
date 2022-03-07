@@ -148,6 +148,9 @@ Linux部分
 [介绍下Zookeeper是什么？](https://blog.csdn.net/qq_41544550/article/details/123148663)  
 [Zookeeper有什么作用？优缺点？有什么应用场景？](https://blog.csdn.net/qq_41544550/article/details/123148688)  
 
+#### 三、Hive
+[说下为什么要使用Hive？Hive的优缺点？Hive的作用是什么？](https://blog.csdn.net/qq_41544550/article/details/123333839)  
+
 ---  
 
 ### 大数据面试 V1.0
