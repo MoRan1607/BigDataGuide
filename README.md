@@ -154,6 +154,9 @@ Linux部分
 #### 三、Hive
 [说下为什么要使用Hive？Hive的优缺点？Hive的作用是什么？](https://blog.csdn.net/qq_41544550/article/details/123333839)  
 
+#### 四、Flume
+[介绍下Flume](https://blog.csdn.net/qq_41544550/article/details/123451528?spm=1001.2014.3001.5501)  
+
 ---  
 
 ### 大数据面试 V1.0
