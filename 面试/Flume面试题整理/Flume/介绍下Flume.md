@@ -4,7 +4,7 @@ Flume是Cloudera提供的**一个高可用的，高可靠的，分布式的海�
 
 Flume可以收集例如日志，事件等数据资源，并将这些数量庞大的数据从各项数据资源中集中起来存储的工具/服务。flume具有高可用，分布式，配置工具，其设计的原理是基于数据流（流式架构，灵活简单），如日志数据从各种网站服务器上汇集起来存储到HDFS，HBase等集中存储器中。其结构如下图所示：
 
-![image-20211017103550873](Pictures/Flume-介绍下Flume.png)
+![image-20211017103550873](https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Flume%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/Flume/Pics/Flume-%E4%BB%8B%E7%BB%8D%E4%B8%8BFlume.png)
 
 Flume最主要的作用是实时读取服务器本地磁盘的数据，将数据写入HDFS或Kafka等。
 
