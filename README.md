@@ -157,6 +157,9 @@ Linux部分
 #### 四、Flume
 [介绍下Flume](https://blog.csdn.net/qq_41544550/article/details/123451528?spm=1001.2014.3001.5501)  
 
+#### 五、Kafka
+[介绍下Kafka，Kafka的作用？Kafka的组件？适用场景？](https://blog.csdn.net/qq_41544550/article/details/123534948)  
+
 ---  
 
 ### 大数据面试 V1.0
