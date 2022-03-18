@@ -160,6 +160,9 @@ Linux部分
 #### 五、Kafka
 [介绍下Kafka，Kafka的作用？Kafka的组件？适用场景？](https://blog.csdn.net/qq_41544550/article/details/123534948)  
 
+#### 六、HBase
+[介绍下HBase架构](https://blog.csdn.net/qq_41544550/article/details/123583361)  
+
 ---  
 
 ### 大数据面试 V1.0
