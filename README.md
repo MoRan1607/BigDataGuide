@@ -145,7 +145,11 @@ Linux部分
 ---
 ### [大数据面试题 V2.0](https://mp.weixin.qq.com/s/hMcuDEkzH49rfSmGWy_GRg)  
 #### 一、Hadoop  
+##### 1、Hadoop基础
 [介绍下Hadoop](https://blog.csdn.net/qq_41544550/article/details/123031348)  
+
+##### 2、HDFS
+[HDFS读写流程](https://blog.csdn.net/qq_41544550/article/details/103113335)  
 
 #### 二、Zookeeper  
 [介绍下Zookeeper是什么？](https://blog.csdn.net/qq_41544550/article/details/123148663)  
