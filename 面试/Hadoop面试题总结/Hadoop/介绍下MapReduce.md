@@ -11,3 +11,6 @@ MapReduce的核心思想是将用户编写的逻辑代码和架构中的各个�
 - MapTask：负责map阶段的数据处理
 
 - ReduceTask：负责reduce阶段的数据处理
+
+
+
