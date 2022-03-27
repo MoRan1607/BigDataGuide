@@ -76,6 +76,7 @@ Linux部分
 ### 三、Hive
 &emsp; 1.[Hive——Hive概述](https://github.com/Dr11ft/BigDataGuide/blob/master/Hive/1%E3%80%81Hive%E6%A6%82%E8%BF%B0.md)   
 &emsp; 2.[Hive——Hive数据类型](https://github.com/Dr11ft/BigDataGuide/blob/master/Hive/2%E3%80%81Hive%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)   
+&emsp; 3.[Hive——Hive DDL数据](https://github.com/Dr11ft/BigDataGuide/blob/master/Hive/3%E3%80%81Hive%20DDL%E6%95%B0%E6%8D%AE.md)   
 
 ### 四、Flume
 &emsp; 1.[Flume——Flume概述](https://github.com/Dr11ft/BigDataGuide/blob/master/Flume/1%E3%80%81Flume%E6%A6%82%E8%BF%B0.md)   
@@ -87,6 +88,7 @@ Linux部分
 &emsp; 2.[Kafka——Kafka深入解析](https://github.com/Dr11ft/BigDataGuide/blob/master/Kafka/2%E3%80%81Kafka%E6%B7%B1%E5%85%A5%E8%A7%A3%E6%9E%90.md)   
 &emsp; 3.[Kafka——Kafka API操作实践](https://github.com/Dr11ft/BigDataGuide/blob/master/Kafka/3%E3%80%81Kafka%20API%E6%93%8D%E4%BD%9C%E5%AE%9E%E8%B7%B5.md)   
 &emsp; 3.[Kafka——Kafka对接Flume实践](https://github.com/Dr11ft/BigDataGuide/blob/master/Kafka/4%E3%80%81Flume%E5%AF%B9%E6%8E%A5Kafka%E5%AE%9E%E8%B7%B5%E6%93%8D%E4%BD%9C.md)   
+
 ### 六、HBase
 &emsp; 1.[HBase——HBase概述](https://github.com/Dr11ft/BigDataGuide/blob/master/HBase/1%E3%80%81HBase%E6%A6%82%E8%BF%B0.md)   
 &emsp; 2.[HBase——HBase数据结构](https://github.com/Dr11ft/BigDataGuide/blob/master/HBase/2%E3%80%81HBase%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)   
