@@ -76,7 +76,7 @@ Linux部分
 ### 三、Hive
 &emsp; 1.[Hive——Hive概述](https://github.com/Dr11ft/BigDataGuide/blob/master/Hive/1%E3%80%81Hive%E6%A6%82%E8%BF%B0.md)   
 &emsp; 2.[Hive——Hive数据类型](https://github.com/Dr11ft/BigDataGuide/blob/master/Hive/2%E3%80%81Hive%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)   
-&emsp; 3.[Hive——Hive DDL数据](https://github.com/Dr11ft/BigDataGuide/blob/master/Hive/3%E3%80%81Hive%20DDL%E6%95%B0%E6%8D%AE.md)   
+&emsp; 3.[Hive——Hive DDL数据定义](https://github.com/Dr11ft/BigDataGuide/blob/master/Hive/3%E3%80%81Hive%20DDL%E6%95%B0%E6%8D%AE.md)   
 &emsp; 4.[Hive——Hive DML数据操作](https://github.com/Dr11ft/BigDataGuide/blob/master/Hive/4%E3%80%81Hive%20DML%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C.md)   
 
 ### 四、Flume
