@@ -158,6 +158,9 @@ Linux部分
 [介绍下MapReduce](https://blog.csdn.net/qq_41544550/article/details/123674103)  
 [MapReduce优缺点](https://blog.csdn.net/qq_41544550/article/details/123752822)  
 
+##### 4、YARN
+[介绍下YARN](https://blog.csdn.net/qq_41544550/article/details/123826496?spm=1001.2014.3001.5501)  
+
 #### 二、Zookeeper  
 [介绍下Zookeeper是什么？](https://blog.csdn.net/qq_41544550/article/details/123148663)  
 [Zookeeper有什么作用？优缺点？有什么应用场景？](https://blog.csdn.net/qq_41544550/article/details/123148688)  
