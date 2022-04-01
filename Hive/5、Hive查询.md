@@ -289,3 +289,170 @@ hive (default)> select * from emp where sal>1000 or deptno=30;
 hive (default)> select * from emp where deptno not IN(30, 20);
 ```
 
+### 2、分组
+
+#### 2.1 Group By语句
+
+GROUP BY语句通常会和聚合函数一起使用，按照一个或者多个列队结果进行分组，然后对每个组执行聚合操作。
+
+1）案例实操：
+
+（1）计算emp表每个部门的平均工资
+
+```sql
+hive (default)> select t.deptno, avg(t.sal) avg_sal from emp t group by t.deptno;
+```
+
+（2）计算emp每个部门中每个岗位的最高薪水
+
+```sql
+hive (default)> select t.deptno, t.job, max(t.sal) max_sal from emp t group by t.deptno, t.job;
+```
+
+#### 2.2 Having语句
+
+1）having与where不同点
+
+（1）where后面不能写分组函数，而having后面可以使用分组函数。
+
+（2）having只用于group by分组统计语句。
+
+2）案例实操
+
+（1）求每个部门的平均薪水大于2000的部门
+
+求每个部门的平均工资
+
+```sql
+hive (default)> select deptno, avg(sal) from emp group by deptno;
+```
+
+求每个部门的平均薪水大于2000的部门
+
+```sql
+hive (default)> select deptno, avg(sal) avg_sal from emp group by deptno having avg_sal > 2000;
+```
+
+### 3、Join语句
+
+#### 3.1 等值Join
+
+Hive支持通常的SQL JOIN语句。 
+
+1）案例实操
+
+（1）根据员工表和部门表中的部门编号相等，查询员工编号、员工名称和部门名称；
+
+```sql
+hive (default)> select e.empno, e.ename, d.deptno, d.dname from emp e join dept d on e.deptno = d.deptno;
+```
+
+#### 3.2 表的别名
+
+1）好处
+
+（1）使用别名可以简化查询。
+
+（2）使用表名前缀可以提高执行效率。
+
+2）案例实操
+
+合并员工表和部门表
+
+```sql
+hive (default)> select e.empno, e.ename, d.deptno from emp e join dept d on e.deptno = d.deptno;
+```
+
+#### 3.3 内连接
+
+内连接：只有进行连接的两个表中都存在与连接条件相匹配的数据才会被保留下来。
+
+```sql
+hive (default)> select e.empno, e.ename, d.deptno from emp e join dept d on e.deptno = d.deptno; 
+```
+
+#### 3.4 左外连接
+
+左外连接：JOIN操作符左边表中符合WHERE子句的所有记录将会被返回。
+
+```sql
+hive (default)> select e.empno, e.ename, d.deptno from emp e left join dept d on e.deptno = d.deptno;
+```
+
+#### 3.5 右外连接
+
+右外连接：JOIN操作符右边表中符合WHERE子句的所有记录将会被返回。
+
+```sql
+hive (default)> select e.empno, e.ename, d.deptno from emp e right join dept d on e.deptno = d.deptno;
+```
+
+#### 3.6 满外连接
+
+满外连接：将会返回所有表中符合WHERE语句条件的所有记录。如果任一表的指定字段没有符合条件的值的话，那么就使用NULL值替代。
+
+```sql
+hive (default)> select e.empno, e.ename, d.deptno from emp e full join dept d on e.deptno = d.deptno;
+```
+
+#### 3.7 多表连接
+
+注意：连接 n个表，至少需要n-1个连接条件。例如：连接三个表，至少需要两个连接条件。
+
+数据准备
+
+```xml
+1700	Beijing
+1800	London
+1900	Tokyo
+```
+
+1）创建位置表
+
+```sql
+create table if not exists location(
+loc int,
+loc_name string
+)
+row format delimited fields terminated by '\t';
+```
+
+2）导入数据
+
+```sql
+hive (default)> load data local inpath '/opt/module/datas/location.txt' into table location;
+```
+
+3）多表连接查询
+
+```sql
+hive (default)>SELECT e.ename, d.dname, l.loc_name 
+FROM emp e
+JOIN   dept d
+ON     d.deptno = e.deptno 
+JOIN   location l
+ON     d.loc = l.loc;
+```
+
+大多数情况下，Hive会对每对JOIN连接对象启动一个MapReduce任务。本例中会首先启动一个MapReduce job对表e和表d进行连接操作，然后会再启动一个MapReduce job将第一个MapReduce job的输出和表l;进行连接操作。
+
+注意：为什么不是表d和表l先进行连接操作呢？这是因为Hive总是按照从左到右的顺序执行的。
+
+优化：当对3个或者更多表进行join连接时，如果每个on子句都使用相同的连接键的话，那么只会产生一个MapReduce job。
+
+#### 3.8 笛卡尔积
+
+1）笛卡尔积会在下面条件下产生
+
+（1）省略连接条件
+
+（2）连接条件无效
+
+（3）所有表中的所有行互相连接
+
+2）案例实操
+
+```sql
+hive (default)> select empno, dname from emp, dept;
+```
+
