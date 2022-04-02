@@ -456,3 +456,137 @@ ON     d.loc = l.loc;
 hive (default)> select empno, dname from emp, dept;
 ```
 
+### 4、排序
+
+#### 4.1 全局排序（Order By）
+
+Order By：全局排序，只有一个Reducer
+
+1）使用 ORDER BY 子句排序
+
+- ASC（ascend）：升序（默认）
+
+- DESC（descend）：降序
+
+2）ORDER BY 子句在SELECT语句的结尾
+
+3）案例实操 
+
+（1）查询员工信息按工资升序排列
+
+```sql
+hive (default)> select * from emp order by sal;
+```
+
+（2）查询员工信息按工资降序排列
+
+```sql
+hive (default)> select * from emp order by sal desc;
+```
+
+#### 4.2 按照别名排序
+
+按照员工薪水的2倍排序
+
+```sql
+hive (default)> select ename, sal*2 twosal from emp order by twosal;
+```
+
+#### 4.3 多个列排序
+
+按照部门和工资升序排序
+
+```sql
+hive (default)> select ename, deptno, sal from emp order by deptno, sal;
+```
+
+#### 4.4 每个Reduce内部排序（Sort By）
+
+Sort By：对于大规模的数据集order by的效率非常低。在很多情况下，并不需要全局排序，此时可以使用sort by。
+
+Sort by为每个reducer产生一个排序文件。每个Reducer内部进行排序，对全局结果集来说不是排序。
+
+1）设置reduce个数
+
+```sql
+hive (default)> set mapreduce.job.reduces=3;
+```
+
+2）查看设置reduce个数
+
+```sql
+hive (default)> set mapreduce.job.reduces;
+```
+
+3）根据部门编号降序查看员工信息
+
+```sql
+hive (default)> select * from emp sort by deptno desc;
+```
+
+4）将查询结果导入到文件中（按照部门编号降序排序）
+
+```sql
+hive (default)> insert overwrite local directory '/opt/module/hive/datas/sortby-result'
+ select * from emp sort by deptno desc;
+```
+
+#### 4.5 分区（Distribute By）
+
+Distribute By：在有些情况下，我们需要控制某个特定行应该到哪个reducer，通常是为了进行后续的聚集操作。distribute by 子句可以做这件事。distribute by类似MR中partition（自定义分区），进行分区，结合sort by使用。 
+
+对于distribute by进行测试，一定要分配多reduce进行处理，否则无法看到distribute by的效果。
+
+1）案例实操：
+
+（1）先按照部门编号分区，再按照员工编号降序排序。
+
+```sql
+hive (default)> set mapreduce.job.reduces=3;
+hive (default)> insert overwrite local directory '/opt/module/hive/datas/distribute-result' select * from emp distribute by deptno sort by empno desc;
+```
+
+注意：
+
+- distribute by的分区规则是根据分区字段的hash码与reduce的个数进行模除后，余数相同的分到一个区。
+
+- Hive要求DISTRIBUTE BY语句要写在SORT BY语句之前。
+
+#### 4.6 Cluster By
+
+当distribute by和sort by字段相同时，可以使用cluster by方式。
+
+cluster by除了具有distribute by的功能外还兼具sort by的功能。但是排序只能是升序排序，不能指定排序规则为ASC或者DESC。
+
+（1）以下两种写法等价
+
+```sql
+hive (default)> select * from emp cluster by deptno;
+hive (default)> select * from emp distribute by deptno sort by deptno;
+```
+
+注意：按照部门编号分区，不一定就是固定死的数值，可以是20号和30号部门分到一个分区里面去。
+
+### 5、抽样查询
+
+对于非常大的数据集，有时用户需要使用的是一个具有代表性的查询结果而不是全部结果。Hive可以通过对表进行抽样来满足这个需求。
+
+查询表stu_buck中的数据。
+
+```sql
+hive (default)> select * from stu_buck tablesample(bucket 1 out of 4 on id);
+```
+
+注：tablesample是抽样语句，语法：TABLESAMPLE(BUCKET x OUT OF y) 。
+
+y必须是table总bucket数的倍数或者因子。hive根据y的大小，决定抽样的比例。例如，table总共分了4份，当y=2时，抽取(4/2=)2个bucket的数据，当y=8时，抽取(4/8=)1/2个bucket的数据。
+
+x表示从哪个bucket开始抽取，如果需要取多个分区，以后的分区号为当前分区号加上y。例如，table总bucket数为4，tablesample(bucket 1 out of 2)，表示总共抽取（4/2=）2个bucket的数据，抽取第1(x)个和第3(x+y)个bucket的数据。
+
+注意：x的值必须小于等于y的值，否则
+
+```sql
+FAILED: SemanticException [Error 10061]: Numerator should not be bigger than denominator in sample clause for table stu_buck
+```
+
+
