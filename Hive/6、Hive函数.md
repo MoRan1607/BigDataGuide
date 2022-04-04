@@ -489,3 +489,111 @@ SELECT datediff(CURRENT_DATE(), "1990-06-04");
 ```
 
 ### 3、自定义函数
+
+1）Hive 自带了一些函数，比如：max/min等，但是数量有限，自己可以通过自定义UDF来方便的扩展。
+
+2）当Hive提供的内置函数无法满足你的业务处理需要时，此时就可以考虑使用用户自定义函数（UDF：user-defined function）。
+
+3）根据用户自定义函数类别分为以下三种：
+
+（1）UDF（User-Defined-Function）
+
+​	一进一出
+
+（2）UDAF（User-Defined Aggregation Function）
+
+​	聚集函数，多进一出
+
+​	类似于：count/max/min
+
+（3）UDTF（User-Defined Table-Generating Functions）
+
+​	一进多出
+
+​	如lateral view explore()
+
+4）编程步骤
+
+（1）继承org.apache.hadoop.hive.ql.exec.UDF
+
+（2）需要实现evaluate函数；evaluate函数支持重载；
+
+（3）在hive的命令行窗口创建函数
+
+添加jar
+
+```sql
+add jar linux_jar_path
+```
+
+创建function
+
+```sql
+create [temporary] function [dbname.]function_name AS class_name;
+```
+
+（4）在hive的命令行窗口删除函数
+
+```sql
+Drop [temporary] function [if exists] [dbname.]function_name;
+```
+
+5）注意事项：UDF必须要有返回类型，可以返回null，但是返回类型不能为void；
+
+### 4、自定义UDF函数
+
+1）创建一个Maven工程Hive
+
+2）导入依赖
+
+```xml
+<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.apache.hive/hive-exec -->
+		<dependency>
+			<groupId>org.apache.hive</groupId>
+			<artifactId>hive-exec</artifactId>
+			<version>3.1.2</version>
+		</dependency>
+</dependencies>
+```
+
+3）创建一个类
+
+```java
+package com.hive;
+import org.apache.hadoop.hive.ql.exec.UDF;
+
+public class Lower extends UDF {
+
+	public String evaluate (final String s) {
+		
+		if (s == null) {
+			return null;
+		}
+		
+		return s.toLowerCase();
+	}
+}
+```
+
+4）打成jar包上传到服务器/opt/module/jars/udf.jar
+
+5）将jar包添加到hive的classpath
+
+```sql
+hive (default)> add jar /opt/module/datas/udf.jar;
+```
+
+6）创建临时函数与开发好的java class关联
+
+```sql
+hive (default)> create temporary function mylower as "com.hive.Lower";
+```
+
+7）即可在hql中使用自定义函数strip
+
+```sql
+hive (default)> select ename, mylower(ename) lowername from emp;
+```
+
+
