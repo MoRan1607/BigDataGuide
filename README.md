@@ -27,30 +27,25 @@
 学习路线中的视频、文档资料可以关注公众号：旧时光大数据，回复相应关键字获取云盘链接  
 ### [大数据学习路线（包含自己看过的视频链接）](https://github.com/Dr11ft/BigDataGuide/blob/master/Docs/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF.md)
 
-基础部分
+编程语言  
 ---  
-### 一、编程语言  
 编程语言部分建议先JavaSE，Spark和Flink之前学习Scala，Python看个人或工作，不过有Java基础，Python会快很多（别问我怎么学，问就是使劲拼命学 [ 吃瓜.jpg ]）  
-#### 1、JavaSE（三选一）    
+### 一、JavaSE（三选一）    
 &emsp; 1. [刘意2015版](https://www.bilibili.com/video/BV1pE41167Ye?from=search&seid=15100703070040994669)   
 &emsp; 2. [刘意2019版](https://www.bilibili.com/video/BV1gb411F76B?from=search&seid=16116797084076868427)   
 &emsp; 3. [尚硅谷宋红康版](https://www.bilibili.com/video/BV1Kb411W75N?from=search&seid=9321658006825735818)   
 
-#### 2、Scala（二选一）  
+### 二、Scala（二选一）  
 如果时间短，建议直接看配套Spark的那种三五天的，可以快速了解  
 &emsp; 1. [韩顺平老师版](https://www.bilibili.com/video/BV1Mp4y1e7B5?from=search&seid=5450215228532207134)   
 &emsp; 2. [清华硕士武晟然老师版](https://www.bilibili.com/video/BV1Mp4y1e7B5?from=search&seid=5450215228532207134)   
 
-#### 3、Python  
+### 三、Python  
 推荐黑马的Python视频，通俗易懂，而且文档比较齐全，有Java基础再看Python的话，上手很快  
 &emsp; 1. [黑马Python版](https://www.bilibili.com/video/BV1C4411A7ej?from=search&seid=11669436417044703145)   
 
-Linux部分
----
-
-
-完全分布式集群搭建
----
+Linux
+---  
 &emsp; [完全分布式集群搭建](https://github.com/Dr11ft/BigDataGuide/blob/master/Hadoop/%E5%88%86%E5%B8%83%E5%BC%8F%E9%9B%86%E7%BE%A4%E6%90%AD%E5%BB%BA.md)  
 &emsp; 关于VM、远程登录工具的安装暂时可以参考我的博客，找到相应步骤进行操作即可  
 &emsp; [集群搭建](https://blog.csdn.net/qq_41544550/category_9458240.html)  
