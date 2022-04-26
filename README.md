@@ -78,6 +78,7 @@ Linux
 &emsp; 7.[Hive——Hive压缩和存储](https://github.com/MoRan1607/BigDataGuide/blob/master/Hive/7%E3%80%81Hive%E5%8E%8B%E7%BC%A9%E5%92%8C%E5%AD%98%E5%82%A8.md)   
 &emsp; 8.[Hive——Hive实战：统计影音视频网站的常规指标](https://github.com/MoRan1607/BigDataGuide/blob/master/Hive/8%E3%80%81Hive%E5%AE%9E%E6%88%98%EF%BC%9A%E7%BB%9F%E8%AE%A1%E5%BD%B1%E9%9F%B3%E8%A7%86%E9%A2%91%E7%BD%91%E7%AB%99%E7%9A%84%E5%B8%B8%E8%A7%84%E6%8C%87%E6%A0%87.md)   
 &emsp; 9.[Hive——Hive分区表和分桶表](https://github.com/MoRan1607/BigDataGuide/blob/master/Hive/9%E3%80%81%E5%88%86%E5%8C%BA%E8%A1%A8%E5%92%8C%E5%88%86%E6%A1%B6%E8%A1%A8.md)   
+&emsp; 10.[Hive——Hive调优](https://github.com/MoRan1607/BigDataGuide/blob/master/Hive/10%E3%80%81Hive%E4%BC%81%E4%B8%9A%E7%BA%A7%E8%B0%83%E4%BC%98.md)   
 
 ### 四、Flume
 &emsp; 1.[Flume——Flume概述](https://github.com/Dr11ft/BigDataGuide/blob/master/Flume/1%E3%80%81Flume%E6%A6%82%E8%BF%B0.md)   
