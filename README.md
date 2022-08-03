@@ -43,7 +43,9 @@
 ### 三、Python  
 推荐黑马的Python视频，通俗易懂，而且文档比较齐全，有Java基础再看Python的话，上手很快  
 &emsp; 1. [黑马Python版](https://www.bilibili.com/video/BV1C4411A7ej?from=search&seid=11669436417044703145)   
+Python文档：
 &emsp; 1. [Python环境搭建与输入输出](https://blog.csdn.net/qq_41544550/article/details/126074237?spm=1001.2014.3001.5501)   
+&emsp; 2. [Python运算符与if结构](https://blog.csdn.net/qq_41544550/article/details/126132117?spm=1001.2014.3001.5501)   
 
 Linux
 ---  
