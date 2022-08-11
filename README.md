@@ -46,6 +46,7 @@
 Python文档：  
 &emsp; 1. [Python环境搭建与输入输出](https://blog.csdn.net/qq_41544550/article/details/126074237?spm=1001.2014.3001.5501)   
 &emsp; 2. [Python运算符与if结构](https://blog.csdn.net/qq_41544550/article/details/126132117?spm=1001.2014.3001.5501)   
+&emsp; 3. [Python中的循环结构](https://blog.csdn.net/qq_41544550/article/details/126245387)   
 
 Linux
 ---  
