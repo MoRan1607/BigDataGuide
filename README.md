@@ -169,7 +169,7 @@ Linux
 
 ##### 3、MapReduce
 [介绍下MapReduce](https://blog.csdn.net/qq_41544550/article/details/123674103)  
-[MapReduce优缺点](https://blog.csdn.net/qq_41544550/article/details/123752822)  
+[MapReduce优缺点](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Hadoop%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93/Hadoop/MapReduce%E4%BC%98%E7%BC%BA%E7%82%B9.md)  
 
 ##### 4、YARN
 [介绍下YARN](https://blog.csdn.net/qq_41544550/article/details/123826496?spm=1001.2014.3001.5501)  
