@@ -190,6 +190,9 @@ Linux
 #### 六、HBase
 [介绍下HBase架构](https://blog.csdn.net/qq_41544550/article/details/123583361)  
 
+#### 七、Spark
+[说下对RDD的理解？RDD特点、算子？]([https://blog.csdn.net/qq_41544550/article/details/123583361](https://blog.csdn.net/qq_41544550/article/details/127598132?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22127598132%22%2C%22source%22%3A%22qq_41544550%22%7D)    
+
 ---  
 
 ### 大数据面试 V1.0
