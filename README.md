@@ -191,7 +191,7 @@ Linux
 [介绍下HBase架构](https://blog.csdn.net/qq_41544550/article/details/123583361)  
 
 #### 七、Spark
-[说下对RDD的理解？RDD特点、算子？](https://blog.csdn.net/qq_41544550/article/details/127598132?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22127598132%22%2C%22source%22%3A%22qq_41544550%22%7D)  
+[说下对RDD的理解？RDD特点、算子？](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Spark%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/Spark/Pics/%E8%AF%B4%E4%B8%8B%E5%AF%B9RDD%E7%9A%84%E7%90%86%E8%A7%A3%EF%BC%9FRDD%E7%89%B9%E7%82%B9%E3%80%81%E7%AE%97%E5%AD%90/%E8%AF%B4%E4%B8%8B%E5%AF%B9RDD%E7%9A%84%E7%90%86%E8%A7%A3%EF%BC%9FRDD%E7%89%B9%E7%82%B9%E3%80%81%E7%AE%97%E5%AD%90.md)  
 
 ---  
 
