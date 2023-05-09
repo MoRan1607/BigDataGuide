@@ -171,6 +171,7 @@ Linux
 #### 一、Hadoop  
 ##### 1、Hadoop基础
 [介绍下Hadoop](https://blog.csdn.net/qq_41544550/article/details/123031348)  
+[Hadoop小文件处理问题](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Hadoop%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93/Hadoop/Hadoop%E5%B0%8F%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86%E9%97%AE%E9%A2%98.md)  
 
 ##### 2、HDFS
 [HDFS读写流程](https://blog.csdn.net/qq_41544550/article/details/103113335)  
