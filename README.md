@@ -17,6 +17,13 @@
 </p>
 </p>  
 
+已开星球，星球内容包括学习路线、学习资料（根据编程语言分了三大版本）、项目、面试题（大数据面试题、Java基础、计算机网络）、800+篇真实面经（已按公司分类）、自己整理的视频学习笔记
+<p align="center">
+<img src="https://github.com/MoRan1607/BigDataGuide/blob/master/Pics/%E7%9F%A5%E8%AF%86%E6%98%9F%E7%90%83%E4%BC%98%E6%83%A0%E5%88%B8.jpg"  width="300" height="340"/>  
+<p align="center">
+</p>
+</p>  
+
 概述
 ---
 &emsp; 1.[大数据简介](https://github.com/Dr11ft/BigDataGuide/blob/master/Docs/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%AE%80%E4%BB%8B.md)  
