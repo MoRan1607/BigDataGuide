@@ -159,7 +159,8 @@ Linux
 
 面试题
 ---
-### [大数据面试题 V3.0](https://mp.weixin.qq.com/s/hMcuDEkzH49rfSmGWy_GRg)  
+### [大数据面试题 V3.0](https://mp.weixin.qq.com/s/hMcuDEkzH49rfSmGWy_GRg)    
+### [大数据面试题 V4.0](https://mp.weixin.qq.com/s/NV90886HAQqBRB1hPNiIPQ)     
 #### 一、Hadoop  
 ##### 1、Hadoop基础
 [介绍下Hadoop](https://blog.csdn.net/qq_41544550/article/details/123031348)  
