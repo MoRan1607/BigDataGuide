@@ -207,7 +207,7 @@ Linux
 
 #### 八、Flink     
 
-[介绍下HBase架构](https://github.com/MoRan1607/BigDataGuide/blob/master/Flink/%E4%BB%8B%E7%BB%8D%E4%B8%8BFlink)      
+[介绍下Flink](https://github.com/MoRan1607/BigDataGuide/blob/master/Flink/%E4%BB%8B%E7%BB%8D%E4%B8%8BFlink)      
 
 ---  
 
