@@ -50,8 +50,8 @@
 ### 三、Python  
 推荐黑马的Python视频，通俗易懂，而且文档比较齐全，有Java基础再看Python的话，上手很快  
 &emsp; 1. [黑马Python版](https://www.bilibili.com/video/BV1C4411A7ej?from=search&seid=11669436417044703145)   
-Python文档：  
-&emsp; 1. [Python环境搭建与输入输出](https://blog.csdn.net/qq_41544550/article/details/126074237?spm=1001.2014.3001.5501)   
+Python文档and笔记：  
+&emsp; 1. [Python环境搭建与输入输出](https://github.com/MoRan1607/BigDataGuide/blob/master/Python/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E4%B8%8E%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA.md)   
 &emsp; 2. [Python运算符与if结构](https://blog.csdn.net/qq_41544550/article/details/126132117?spm=1001.2014.3001.5501)   
 &emsp; 3. [Python中的循环结构](https://blog.csdn.net/qq_41544550/article/details/126245387)   
 &emsp; 4.[Python数据序列（一）](https://blog.51cto.com/u_15553407/5572403)    
