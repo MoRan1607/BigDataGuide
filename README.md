@@ -193,6 +193,7 @@ Linux
 
 #### 四、Flume
 [介绍下Flume](https://blog.csdn.net/qq_41544550/article/details/123451528?spm=1001.2014.3001.5501)  
+[Flume结构](https://github.com/MoRan1607/BigDataGuide/blob/master/Flume/%E9%9D%A2%E8%AF%95%E9%A2%98/Flume%E6%9E%B6%E6%9E%84/Flume%E6%9E%B6%E6%9E%84.md)  
 
 #### 五、Kafka
 [介绍下Kafka，Kafka的作用？Kafka的组件？适用场景？](https://blog.csdn.net/qq_41544550/article/details/123534948)  
