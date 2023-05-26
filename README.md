@@ -207,6 +207,7 @@ Linux
 [说下对RDD的理解？RDD特点、算子？](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Spark%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/Spark/Pics/%E8%AF%B4%E4%B8%8B%E5%AF%B9RDD%E7%9A%84%E7%90%86%E8%A7%A3%EF%BC%9FRDD%E7%89%B9%E7%82%B9%E3%80%81%E7%AE%97%E5%AD%90/%E8%AF%B4%E4%B8%8B%E5%AF%B9RDD%E7%9A%84%E7%90%86%E8%A7%A3%EF%BC%9FRDD%E7%89%B9%E7%82%B9%E3%80%81%E7%AE%97%E5%AD%90.md)     
 
 [Spark小文件问题](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Spark%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/Spark/Spark%E5%B0%8F%E6%96%87%E4%BB%B6%E9%97%AE%E9%A2%98/Spark%E5%B0%8F%E6%96%87%E4%BB%B6%E9%97%AE%E9%A2%98.md)    
+[Spark的内存模型](https://github.com/MoRan1607/BigDataGuide/blob/master/Spark/%E9%9D%A2%E8%AF%95%E9%A2%98/Spark%E7%9A%84%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/Spark%E7%9A%84%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.md)    
 
 #### 八、Flink     
 
