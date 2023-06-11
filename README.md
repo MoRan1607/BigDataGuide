@@ -158,11 +158,6 @@ Linux
 ---  
 &emsp; **基本上选择三到四个即可，B站直接搜索项目名字，都有视频**  
 &emsp; **详细说明公众号回复“大数据项目”即可**  
-<p align="center">
-<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E7%94%B5%E5%AD%90%E4%B9%A6%26%E9%A1%B9%E7%9B%AE/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%A1%B9%E7%9B%AE%E6%B6%89%E5%8F%8A%E6%A1%86%E6%9E%B6%E7%BB%84%E4%BB%B6.jpg"/>  
-<p align="center">
-</p>
-</p>  
 
 面试题
 ---
