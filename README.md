@@ -159,6 +159,12 @@ Linux
 &emsp; **基本上选择三到四个即可，B站直接搜索项目名字，都有视频**  
 &emsp; **详细说明公众号回复“大数据项目”即可**  
 
+读书笔记
+---   
+#### 《阿里大数据之路》读书笔记   
+[第一章 总述](https://github.com/MoRan1607/BigDataGuide/blob/master/Docs/%E3%80%8A%E9%98%BF%E9%87%8C%E5%A4%A7%E6%95%B0%E6%8D%AE%E4%B9%8B%E8%B7%AF%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%EF%BC%9A%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E6%80%BB%E8%BF%B0.md)    
+
+
 面试题
 ---
 ### [大数据面试题 V3.0](https://mp.weixin.qq.com/s/hMcuDEkzH49rfSmGWy_GRg)    
