@@ -20,7 +20,10 @@
 
 块的大小：10ms x 100 x 100M/s = 100M，如图  
 
-
+<p align="center">
+<img src="https://github.com/MoRan1607/BigDataGuide/blob/master/Hadoop/%E9%9D%A2%E8%AF%95%E9%A2%98/Hadoop/%E9%9D%A2%E8%AF%95%E9%A2%98/HDFS%E7%9A%84block%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF128M%EF%BC%9F%E5%A2%9E%E5%A4%A7%E6%88%96%E5%87%8F%E5%B0%8F%E6%9C%89%E4%BB%80%E4%B9%88%E5%BD%B1%E5%93%8D%EF%BC%9F/Hadoop-Hadoop%E7%9A%84%E9%BB%98%E8%AE%A4%E5%9D%97%E5%A4%A7%E5%B0%8F.png"/>  
+<p align="center">
+</p>   
 
 如果增加文件块大小，那就需要增加磁盘的传输速率。  
 
