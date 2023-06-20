@@ -195,6 +195,7 @@ Linux
 [说下为什么要使用Hive？Hive的优缺点？Hive的作用是什么？](https://blog.csdn.net/qq_41544550/article/details/123333839)  
 [Hive的用户自定义函数实现步骤与流程](https://github.com/MoRan1607/BigDataGuide/blob/master/Hive/%E9%9D%A2%E8%AF%95%E9%A2%98/Hive%E7%9A%84%E7%94%A8%E6%88%B7%E8%87%AA%E5%AE%9A%E4%B9%89%E5%87%BD%E6%95%B0%E5%AE%9E%E7%8E%B0%E6%AD%A5%E9%AA%A4%E4%B8%8E%E6%B5%81%E7%A8%8B/Hive%E7%9A%84%E7%94%A8%E6%88%B7%E8%87%AA%E5%AE%9A%E4%B9%89%E5%87%BD%E6%95%B0%E5%AE%9E%E7%8E%B0%E6%AD%A5%E9%AA%A4%E4%B8%8E%E6%B5%81%E7%A8%8B.md)  
 [Hive分区和分桶的区别](https://github.com/MoRan1607/BigDataGuide/blob/master/Hive/%E9%9D%A2%E8%AF%95%E9%A2%98/Hive%E7%9A%84%E7%94%A8%E6%88%B7%E8%87%AA%E5%AE%9A%E4%B9%89%E5%87%BD%E6%95%B0%E5%AE%9E%E7%8E%B0%E6%AD%A5%E9%AA%A4%E4%B8%8E%E6%B5%81%E7%A8%8B/Hive%E5%88%86%E5%8C%BA%E5%92%8C%E5%88%86%E6%A1%B6%E7%9A%84%E5%8C%BA%E5%88%AB.md)  
+[Hive的cluster by 、sort by、distribute by 、order by 区别？](https://github.com/MoRan1607/BigDataGuide/blob/master/Hive/%E9%9D%A2%E8%AF%95%E9%A2%98/Hive%E7%9A%84%E7%94%A8%E6%88%B7%E8%87%AA%E5%AE%9A%E4%B9%89%E5%87%BD%E6%95%B0%E5%AE%9E%E7%8E%B0%E6%AD%A5%E9%AA%A4%E4%B8%8E%E6%B5%81%E7%A8%8B/Hive%E7%9A%84cluster%20by%20%E3%80%81sort%20by%E3%80%81distribute%20by%20%E3%80%81order%20by%20%E5%8C%BA%E5%88%AB%EF%BC%9F.pdf)  
 
 #### 四、Flume
 [介绍下Flume](https://blog.csdn.net/qq_41544550/article/details/123451528?spm=1001.2014.3001.5501)  
