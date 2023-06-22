@@ -206,6 +206,7 @@ Linux
 
 #### 六、HBase
 [介绍下HBase架构](https://blog.csdn.net/qq_41544550/article/details/123583361)  
+[HBase为什么查询快](https://github.com/MoRan1607/BigDataGuide/blob/master/HBase/%E9%9D%A2%E8%AF%95%E9%A2%98/HBase%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9F%A5%E8%AF%A2%E5%BF%AB.pdf)  
 
 #### 七、Spark    
 
