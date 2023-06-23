@@ -269,13 +269,6 @@ https://github.com/Dr11ft/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Zookeeper%
 </p>
 </p>  
 
-#### &emsp; 后端书籍  
-<p align="center">
-<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E7%94%B5%E5%AD%90%E4%B9%A6%26%E9%A1%B9%E7%9B%AE/Java%E5%90%8E%E7%AB%AF%E4%B9%A6%E6%9E%B6.png"/>  
-<p align="center">
-</p>
-</p>  
-
 ## 交流群
 交流群建好了，进群的小伙伴可以加我微信：**MoRan1607，备注：GitHub**  
 <p align="center">
