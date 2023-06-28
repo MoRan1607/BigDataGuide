@@ -190,6 +190,7 @@ Linux
 #### 二、Zookeeper  
 [介绍下Zookeeper是什么？](https://blog.csdn.net/qq_41544550/article/details/123148663)  
 [Zookeeper有什么作用？优缺点？有什么应用场景？](https://blog.csdn.net/qq_41544550/article/details/123148688)  
+[Zookeeper架构](https://github.com/MoRan1607/BigDataGuide/blob/master/Zookeeper/%E9%9D%A2%E8%AF%95%E9%A2%98/Zookeeper%E6%9E%B6%E6%9E%84.pdf)  
 
 #### 三、Hive
 [说下为什么要使用Hive？Hive的优缺点？Hive的作用是什么？](https://blog.csdn.net/qq_41544550/article/details/123333839)  
