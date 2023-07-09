@@ -17,7 +17,7 @@
 
 已开星球，星球内容包括学习路线、学习资料（根据编程语言分了三大版本）、项目、面试题（大数据面试题、Java基础、计算机网络）、800+篇真实面经（已按公司分类）、自己整理的视频学习笔记
 <p align="center">
-<img src="https://raw.githubusercontent.com/qiye0716/picture_typora/main/img/202307011514446.png"  width="290" height="387"/>  
+<img src="https://raw.githubusercontent.com/qiye0716/picture_typora/main/img/202307011514446.png"  width="300" height="387"/>  
 <p align="center">
 </p>
 </p>  
