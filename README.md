@@ -37,13 +37,16 @@
 ---  
 编程语言部分建议先JavaSE，Spark和Flink之前学习Scala，如果时间紧迫，就找个Java版的Spark或Flink教程，Python看个人或工作，不过有Java基础，Python会快很多（别问我怎么学，问就是使劲拼命学 [ 吃瓜.jpg ]）  
 ### 一、JavaSE（二选一）     
-&emsp; 1. [刘意2019版](https://www.bilibili.com/video/BV1gb411F76B?from=search&seid=16116797084076868427)   
-&emsp; 2. [尚硅谷宋红康版](https://www.bilibili.com/video/BV1Kb411W75N?from=search&seid=9321658006825735818)   
+[刘意2019版](https://www.bilibili.com/video/BV1gb411F76B?from=search&seid=16116797084076868427)   
+    
+[尚硅谷宋红康版](https://www.bilibili.com/video/BV1Kb411W75N?from=search&seid=9321658006825735818)   
 
 ### 二、Scala（二选一）  
 如果时间短，建议直接看配套Spark的那种三五天的，可以快速了解  
-&emsp; 1. [韩顺平老师版](https://www.bilibili.com/video/BV1Mp4y1e7B5?from=search&seid=5450215228532207134)   
-&emsp; 2. [清华硕士武晟然老师版](https://www.bilibili.com/video/BV1Mp4y1e7B5?from=search&seid=5450215228532207134)   
+   
+[韩顺平老师版](https://www.bilibili.com/video/BV1Mp4y1e7B5?from=search&seid=5450215228532207134)   
+   
+[清华硕士武晟然老师版](https://www.bilibili.com/video/BV1Mp4y1e7B5?from=search&seid=5450215228532207134)   
 
 ### 三、Python  
 推荐黑马的Python视频，通俗易懂，而且文档比较齐全，有Java基础再看Python的话，上手很快   
