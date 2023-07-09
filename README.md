@@ -4,10 +4,11 @@
 
 ## 公众号
 关注我的公众号：**旧时光大数据**，回复相应关键字，获取更多大数据干货、资料  
+   
 “大数据学习路线”中我自己看过的视频、文档资料可以直接在公众号获取云盘链接  
 
-### 《大数据面试题 V4.0》已出，公众号回复：大数据面试题
-### [大数据面试题 V4.0](https://mp.weixin.qq.com/s/NV90886HAQqBRB1hPNiIPQ)  
+### 《[大数据面试题 V4.0](https://mp.weixin.qq.com/s/NV90886HAQqBRB1hPNiIPQ)》已出，公众号回复：大数据面试题     
+
 <p align="center">
 <img src="https://github.com/MoRan1607/BigDataGuide/blob/master/Pics/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" width="200" height="200"/>  
 <p align="center">
@@ -23,8 +24,9 @@
 
 概述
 ---
-&emsp; 1.[大数据简介](https://github.com/Dr11ft/BigDataGuide/blob/master/Docs/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%AE%80%E4%BB%8B.md)  
-&emsp; 2.[大数据相关岗位介绍](https://github.com/Dr11ft/BigDataGuide/blob/master/Docs/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%9B%B8%E5%85%B3%E5%B2%97%E4%BD%8D%E4%BB%8B%E7%BB%8D.md)  
+[大数据简介](https://github.com/Dr11ft/BigDataGuide/blob/master/Docs/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%AE%80%E4%BB%8B.md)  
+   
+[大数据相关岗位介绍](https://github.com/Dr11ft/BigDataGuide/blob/master/Docs/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%9B%B8%E5%85%B3%E5%B2%97%E4%BD%8D%E4%BB%8B%E7%BB%8D.md)  
 
 大数据学习路线
 ---
@@ -33,11 +35,10 @@
 
 编程语言  
 ---  
-编程语言部分建议先JavaSE，Spark和Flink之前学习Scala，Python看个人或工作，不过有Java基础，Python会快很多（别问我怎么学，问就是使劲拼命学 [ 吃瓜.jpg ]）  
-### 一、JavaSE（三选一）    
-&emsp; 1. [刘意2015版](https://www.bilibili.com/video/BV1pE41167Ye?from=search&seid=15100703070040994669)   
-&emsp; 2. [刘意2019版](https://www.bilibili.com/video/BV1gb411F76B?from=search&seid=16116797084076868427)   
-&emsp; 3. [尚硅谷宋红康版](https://www.bilibili.com/video/BV1Kb411W75N?from=search&seid=9321658006825735818)   
+编程语言部分建议先JavaSE，Spark和Flink之前学习Scala，如果时间紧迫，就找个Java版的Spark或Flink教程，Python看个人或工作，不过有Java基础，Python会快很多（别问我怎么学，问就是使劲拼命学 [ 吃瓜.jpg ]）  
+### 一、JavaSE（二选一）     
+&emsp; 1. [刘意2019版](https://www.bilibili.com/video/BV1gb411F76B?from=search&seid=16116797084076868427)   
+&emsp; 2. [尚硅谷宋红康版](https://www.bilibili.com/video/BV1Kb411W75N?from=search&seid=9321658006825735818)   
 
 ### 二、Scala（二选一）  
 如果时间短，建议直接看配套Spark的那种三五天的，可以快速了解  
@@ -45,8 +46,8 @@
 &emsp; 2. [清华硕士武晟然老师版](https://www.bilibili.com/video/BV1Mp4y1e7B5?from=search&seid=5450215228532207134)   
 
 ### 三、Python  
-推荐黑马的Python视频，通俗易懂，而且文档比较齐全，有Java基础再看Python的话，上手很快  
-&emsp; 1. [黑马Python版](https://www.bilibili.com/video/BV1C4411A7ej?from=search&seid=11669436417044703145)   
+推荐黑马的Python视频，通俗易懂，而且文档比较齐全，有Java基础再看Python的话，上手很快   
+[黑马Python版](https://www.bilibili.com/video/BV1C4411A7ej?from=search&seid=11669436417044703145)   
 Python文档and笔记：  
 &emsp; 1. [Python环境搭建与输入输出](https://github.com/MoRan1607/BigDataGuide/blob/master/Python/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E4%B8%8E%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA.md)   
 &emsp; 2. [Python运算符与if结构](https://blog.csdn.net/qq_41544550/article/details/126132117?spm=1001.2014.3001.5501)   
