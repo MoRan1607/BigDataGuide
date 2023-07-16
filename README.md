@@ -207,6 +207,7 @@ Linux
 [介绍下Kafka，Kafka的作用？Kafka的组件？适用场景？](https://blog.csdn.net/qq_41544550/article/details/123534948)  
 [Kafka实现高吞吐的原理？](https://github.com/MoRan1607/BigDataGuide/blob/master/Kafka/%E9%9D%A2%E8%AF%95%E9%A2%98/Kafka%E5%AE%9E%E7%8E%B0%E9%AB%98%E5%90%9E%E5%90%90%E7%9A%84%E5%8E%9F%E7%90%86.pdf)  
 [Kafka的一条message中包含了哪些信息？](https://github.com/MoRan1607/BigDataGuide/blob/master/Kafka/%E9%9D%A2%E8%AF%95%E9%A2%98/Kafka%E7%9A%84%E4%B8%80%E6%9D%A1message%E4%B8%AD%E5%8C%85%E5%90%AB%E4%BA%86%E5%93%AA%E4%BA%9B%E4%BF%A1%E6%81%AF%EF%BC%9F.pdf)  
+[Kafka的消费者和消费者组有什么区别？为什么需要消费者组？](https://github.com/MoRan1607/BigDataGuide/blob/master/Kafka/%E9%9D%A2%E8%AF%95%E9%A2%98/Kafka%E7%9A%84%E6%B6%88%E8%B4%B9%E8%80%85%E5%92%8C%E6%B6%88%E8%B4%B9%E8%80%85%E7%BB%84%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81%E6%B6%88%E8%B4%B9%E8%80%85%E7%BB%84%EF%BC%9F.pdf)  
 
 #### 六、HBase
 [介绍下HBase架构](https://blog.csdn.net/qq_41544550/article/details/123583361)  
