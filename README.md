@@ -213,6 +213,7 @@ Linux
 [介绍下HBase架构](https://blog.csdn.net/qq_41544550/article/details/123583361)  
 [HBase为什么查询快](https://github.com/MoRan1607/BigDataGuide/blob/master/HBase/%E9%9D%A2%E8%AF%95%E9%A2%98/HBase%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9F%A5%E8%AF%A2%E5%BF%AB.pdf)  
 [HBase的大合并、小合并是什么？](https://github.com/MoRan1607/BigDataGuide/blob/master/HBase/%E9%9D%A2%E8%AF%95%E9%A2%98/HBase%E7%9A%84%E5%A4%A7%E5%90%88%E5%B9%B6%E3%80%81%E5%B0%8F%E5%90%88%E5%B9%B6%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F.pdf)  
+[HBase的rowkey设计原则](https://github.com/MoRan1607/BigDataGuide/blob/master/HBase/%E9%9D%A2%E8%AF%95%E9%A2%98/HBase%E7%9A%84rowkey%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99.pdf)  
 
 #### 七、Spark    
 
