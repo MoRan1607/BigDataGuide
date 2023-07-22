@@ -50,9 +50,10 @@
 
 ### 三、Python  
 推荐黑马的Python视频，通俗易懂，而且文档比较齐全，有Java基础再看Python的话，上手很快   
-[黑马Python版](https://www.bilibili.com/video/BV1C4411A7ej?from=search&seid=11669436417044703145)   
+   
+[黑马Python版视频](https://www.bilibili.com/video/BV1C4411A7ej?from=search&seid=11669436417044703145)   
     
-[Python文档and笔记 ](https://github.com/MoRan1607/BigDataGuide/blob/master/Python/Python%E6%96%87%E6%A1%A3.md)    
+[Python文档and笔记](https://github.com/MoRan1607/BigDataGuide/blob/master/Python/Python%E6%96%87%E6%A1%A3.md)    
 
 Linux
 ---  
