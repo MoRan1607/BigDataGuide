@@ -157,6 +157,7 @@ Linux
 ---   
 #### 《阿里大数据之路》读书笔记   
 [第一章 总述](https://github.com/MoRan1607/BigDataGuide/blob/master/Docs/%E3%80%8A%E9%98%BF%E9%87%8C%E5%A4%A7%E6%95%B0%E6%8D%AE%E4%B9%8B%E8%B7%AF%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%EF%BC%9A%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E6%80%BB%E8%BF%B0.md)    
+     
 [第二章 日志采集](https://github.com/MoRan1607/BigDataGuide/blob/master/Docs/%E7%AC%AC%E4%BA%8C%E7%AB%A0%EF%BC%9A%E6%97%A5%E5%BF%97%E9%87%87%E9%9B%86.pdf)    
 
 面试题
