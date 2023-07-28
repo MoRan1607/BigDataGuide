@@ -3,8 +3,8 @@
 >大数据学习指南，从零开始学习大数据开发，包含大数据学习各个阶段资汇总     
 
 ## 公众号
-关注我的公众号：**旧时光大数据**，回复相应关键字，获取更多大数据干货、资料  
-   
+关注我的公众号：**旧时光大数据**，回复相应关键字，获取更多大数据干货、资料
+
 “大数据学习路线”中我自己看过的视频、文档资料可以直接在公众号获取云盘链接  
 
 ### 《[大数据面试题 V4.0](https://mp.weixin.qq.com/s/NV90886HAQqBRB1hPNiIPQ)》已出，公众号回复：大数据面试题     
@@ -24,8 +24,8 @@
 
 概述
 ---
-[大数据简介](https://github.com/Dr11ft/BigDataGuide/blob/master/Docs/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%AE%80%E4%BB%8B.md)  
-   
+[大数据简介](https://github.com/Dr11ft/BigDataGuide/blob/master/Docs/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%AE%80%E4%BB%8B.md)
+
 [大数据相关岗位介绍](https://github.com/Dr11ft/BigDataGuide/blob/master/Docs/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%9B%B8%E5%85%B3%E5%B2%97%E4%BD%8D%E4%BB%8B%E7%BB%8D.md)  
 
 大数据学习路线
