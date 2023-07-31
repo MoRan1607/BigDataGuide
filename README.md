@@ -215,6 +215,7 @@ Linux
 [HBase的rowkey设计原则](https://github.com/MoRan1607/BigDataGuide/blob/master/HBase/%E9%9D%A2%E8%AF%95%E9%A2%98/HBase%E7%9A%84rowkey%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99.pdf)  
 [HBase的一个region由哪些东西组成？](https://github.com/MoRan1607/BigDataGuide/blob/master/HBase/%E9%9D%A2%E8%AF%95%E9%A2%98/HBase%E7%9A%84%E4%B8%80%E4%B8%AAregion%E7%94%B1%E5%93%AA%E4%BA%9B%E4%B8%9C%E8%A5%BF%E7%BB%84%E6%88%90%EF%BC%9F.pdf)  
 [HBase读写数据流程](https://github.com/MoRan1607/BigDataGuide/blob/master/HBase/%E9%9D%A2%E8%AF%95%E9%A2%98/HBase%E8%AF%BB%E5%86%99%E6%95%B0%E6%8D%AE%E6%B5%81%E7%A8%8B.pdf)  
+[HBase的RegionServer宕机以后怎么恢复的？](https://github.com/MoRan1607/BigDataGuide/blob/master/HBase/%E9%9D%A2%E8%AF%95%E9%A2%98/HBase%E7%9A%84RegionServer%E5%AE%95%E6%9C%BA%E4%BB%A5%E5%90%8E%E6%80%8E%E4%B9%88%E6%81%A2%E5%A4%8D%E7%9A%84%EF%BC%9F.pdf)  
 
 #### 七、Spark    
 
