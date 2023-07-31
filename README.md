@@ -224,6 +224,8 @@ Linux
 [Spark的Job、Stage、Task分别介绍下，如何划分？](https://github.com/MoRan1607/BigDataGuide/blob/master/Spark/%E9%9D%A2%E8%AF%95%E9%A2%98/Spark%E7%9A%84%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/Spark%E7%9A%84Job%E3%80%81Stage%E3%80%81Task%E5%88%86%E5%88%AB%E4%BB%8B%E7%BB%8D%E4%B8%8B%EF%BC%8C%E5%A6%82%E4%BD%95%E5%88%92%E5%88%86.md)    
 [Spark的RDD、DataFrame、DataSet、DataStream区别？](https://github.com/MoRan1607/BigDataGuide/blob/master/Spark/%E9%9D%A2%E8%AF%95%E9%A2%98/Spark%E7%9A%84%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/Spark%E7%9A%84RDD%E3%80%81DataFrame%E3%80%81DataSet%E3%80%81DataStream%E5%8C%BA%E5%88%AB%EF%BC%9F.pdf)    
 [RDD的容错](https://github.com/MoRan1607/BigDataGuide/blob/master/Spark/%E9%9D%A2%E8%AF%95%E9%A2%98/Spark%E7%9A%84%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/RDD%E7%9A%84%E5%AE%B9%E9%94%99.pdf)    
+[Spark的RDD、DataFrame、DataSet、DataStream区别？](https://github.com/MoRan1607/BigDataGuide/blob/master/Spark/%E9%9D%A2%E8%AF%95%E9%A2%98/Spark%E7%9A%84%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/Spark%E7%9A%84RDD%E3%80%81DataFrame%E3%80%81DataSet%E3%80%81DataStream%E5%8C%BA%E5%88%AB%EF%BC%9F.pdf)    
+
 
 #### 八、Flink     
 
