@@ -30,7 +30,8 @@
 大数据学习路线
 ---
 学习路线中的视频、文档资料可以关注公众号：旧时光大数据，回复相应关键字获取云盘链接  
-### [大数据学习路线（包含自己看过的视频链接）](https://github.com/Dr11ft/BigDataGuide/blob/master/Docs/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF.md)
+  
+[大数据学习路线（包含自己看过的视频链接）](https://github.com/Dr11ft/BigDataGuide/blob/master/Docs/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF.md)
 
 编程语言  
 ---  
