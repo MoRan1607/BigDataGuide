@@ -207,7 +207,8 @@ Linux
 [Kafka的消费者和消费者组有什么区别？为什么需要消费者组？](https://github.com/MoRan1607/BigDataGuide/blob/master/Kafka/%E9%9D%A2%E8%AF%95%E9%A2%98/Kafka%E7%9A%84%E6%B6%88%E8%B4%B9%E8%80%85%E5%92%8C%E6%B6%88%E8%B4%B9%E8%80%85%E7%BB%84%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81%E6%B6%88%E8%B4%B9%E8%80%85%E7%BB%84%EF%BC%9F.pdf)  
 [Kafka的ISR、OSR和ACK介绍，ACK分别有几种值？](https://github.com/MoRan1607/BigDataGuide/blob/master/Kafka/%E9%9D%A2%E8%AF%95%E9%A2%98/Kafka%E7%9A%84ISR%E3%80%81OSR%E5%92%8CACK%E4%BB%8B%E7%BB%8D%EF%BC%8CACK%E5%88%86%E5%88%AB%E6%9C%89%E5%87%A0%E7%A7%8D%E5%80%BC%EF%BC%9F.pdf)  
 [Kafka怎么保证数据不丢失，不重复？](https://github.com/MoRan1607/BigDataGuide/blob/master/Kafka/%E9%9D%A2%E8%AF%95%E9%A2%98/Kafka%E6%80%8E%E4%B9%88%E4%BF%9D%E8%AF%81%E6%95%B0%E6%8D%AE%E4%B8%8D%E4%B8%A2%E5%A4%B1%EF%BC%8C%E4%B8%8D%E9%87%8D%E5%A4%8D%EF%BC%9F.pdf)   
-[Kafka的单播和多播](https://github.com/MoRan1607/BigDataGuide/blob/master/Kafka/%E9%9D%A2%E8%AF%95%E9%A2%98/Kafka%E7%9A%84%E5%8D%95%E6%92%AD%E5%92%8C%E5%A4%9A%E6%92%AD.pdf)  
+[Kafka的单播和多播](https://github.com/MoRan1607/BigDataGuide/blob/master/Kafka/%E9%9D%A2%E8%AF%95%E9%A2%98/Kafka%E7%9A%84%E5%8D%95%E6%92%AD%E5%92%8C%E5%A4%9A%E6%92%AD.pdf)   
+[说下Kafka的ISR机制](https://github.com/MoRan1607/BigDataGuide/blob/master/Kafka/%E9%9D%A2%E8%AF%95%E9%A2%98/%E8%AF%B4%E4%B8%8BKafka%E7%9A%84ISR%E6%9C%BA%E5%88%B6.pdf)  
 
 #### 六、HBase
 [介绍下HBase架构](https://blog.csdn.net/qq_41544550/article/details/123583361)  
