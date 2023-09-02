@@ -181,6 +181,7 @@ Linux
 [介绍下MapReduce](https://blog.csdn.net/qq_41544550/article/details/123674103)  
 [MapReduce优缺点](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Hadoop%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93/Hadoop/MapReduce%E4%BC%98%E7%BC%BA%E7%82%B9.md)  
 [MapReduce工作原理（流程）](https://github.com/MoRan1607/BigDataGuide/blob/master/Hadoop/%E9%9D%A2%E8%AF%95%E9%A2%98/Hadoop/%E9%9D%A2%E8%AF%95%E9%A2%98/MapReduce%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%EF%BC%88%E6%B5%81%E7%A8%8B%EF%BC%89.pdf)  
+[MapReduce压缩方式](https://github.com/MoRan1607/BigDataGuide/blob/master/Hadoop/%E9%9D%A2%E8%AF%95%E9%A2%98/Hadoop/%E9%9D%A2%E8%AF%95%E9%A2%98/MapReduce%E5%8E%8B%E7%BC%A9%E6%96%B9%E5%BC%8F.pdf)  
 
 ##### 4、YARN
 [介绍下YARN](https://blog.csdn.net/qq_41544550/article/details/123826496?spm=1001.2014.3001.5501)  
