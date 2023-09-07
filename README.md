@@ -161,6 +161,8 @@ Linux
      
 [第二章 日志采集](https://github.com/MoRan1607/BigDataGuide/blob/master/Docs/%E7%AC%AC%E4%BA%8C%E7%AB%A0%EF%BC%9A%E6%97%A5%E5%BF%97%E9%87%87%E9%9B%86.pdf)    
 
+[第三章 数据同步](https://github.com/MoRan1607/BigDataGuide/blob/master/Docs/PDF/%E7%AC%AC%E4%B8%89%E7%AB%A0%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%90%8C%E6%AD%A5.pdf)    
+
 面试题
 ---
 > #### 陆续更新中。。。。。全量面试题（700+道牛客网面经原题）见知识星球
