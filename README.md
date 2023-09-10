@@ -166,6 +166,7 @@ Linux
 面试题
 ---
 > #### 陆续更新中。。。。。全量面试题（700+道牛客网面经原题）见知识星球
+### [大数据面试 V1.0](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E8%AF%95%E9%A2%98%20V1.0.md)  
 ### [大数据面试题 V3.0](https://mp.weixin.qq.com/s/hMcuDEkzH49rfSmGWy_GRg)    
 ### [大数据面试题 V4.0](https://mp.weixin.qq.com/s/NV90886HAQqBRB1hPNiIPQ)     
 #### 一、Hadoop  
@@ -241,9 +242,6 @@ Linux
 [介绍下Flink](https://github.com/MoRan1607/BigDataGuide/blob/master/Flink/%E4%BB%8B%E7%BB%8D%E4%B8%8BFlink)      
 
 ---  
-
-### [大数据面试 V1.0](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E8%AF%95%E9%A2%98%20V1.0.md)  
-
 
 大数据&后端书籍
 ---   
