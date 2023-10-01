@@ -244,7 +244,8 @@ Linux
 牛客网面经
 ---  
 #### 大数据面经
-
+##### 阿里面经
+[阿里云大数据平台三面+HR面【已OC】](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C%E4%BA%91%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%B9%B3%E5%8F%B0%E4%B8%89%E9%9D%A2%2BHR%E9%9D%A2%E3%80%90%E5%B7%B2OC%E3%80%91.pdf)      
 
 
 
