@@ -14,7 +14,10 @@
 </p>
 </p>    
 
-已开星球，星球内容包括学习路线、学习资料（根据编程语言分了三大版本）、项目、面试题（大数据面试题、Java基础、计算机网络）、800+篇真实面经（已按公司分类）、自己整理的视频学习笔记
+已开星球，星球内容包括学习路线、学习资料（根据编程语言分了三大版本）、项目、面试题（大数据面试题、Java基础、计算机网络）、800+篇真实面经（已按公司分类）、自己整理的视频学习笔记  
+
+[知识星球资料介绍]([https://mp.weixin.qq.com/s/NV90886HAQqBRB1hPNiIPQ](https://www.yuque.com/vxo919/gyyog3/ohvyc2e38pprcxkn?singleDoc=))   
+
 <p align="center">
 <img src="https://github.com/MoRan1607/BigDataGuide/blob/master/Docs/%E6%98%9F%E7%90%83%E4%BC%98%E6%83%A0%E5%88%B8%20(1).png"  width="300" height="387"/>  
 <p align="center">
