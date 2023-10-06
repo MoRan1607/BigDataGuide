@@ -251,13 +251,7 @@ Linux
 
 大数据&后端书籍
 ---   
-&emsp; **图片上的PDF书籍在公众号回复关键字“大数据书籍”或“Java书籍”自行进百度云盘群保存即可**  
-#### &emsp; 大数据书籍  
-<p align="center">
-<img src="https://github.com/Dr11ft/BigDataGuide/blob/master/Pics/%E7%94%B5%E5%AD%90%E4%B9%A6%26%E9%A1%B9%E7%9B%AE/%E5%A4%A7%E6%95%B0%E6%8D%AE%E4%B9%A6%E6%9E%B6.png"/>  
-<p align="center">
-</p>
-</p>  
+&emsp; **PDF书籍（含Hadoop、Spark、Flink等大数据书籍）在公众号回复关键字“大数据书籍”或“Java书籍”自行进百度云盘群保存即可**  
 
 ## 交流群
 交流群建好了，进群的小伙伴可以加我微信：**MoRan1607，备注：GitHub**  
