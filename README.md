@@ -264,6 +264,18 @@ Linux
 [阿里巴巴 二面凉经](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%20%E4%BA%8C%E9%9D%A2%E5%87%89%E7%BB%8F.pdf)      
 [阿里云大数据平台三面+HR面【已OC】](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C%E4%BA%91%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%B9%B3%E5%8F%B0%E4%B8%89%E9%9D%A2%2BHR%E9%9D%A2%E3%80%90%E5%B7%B2OC%E3%80%91.pdf)      
 [阿里-数据研发-1面2面](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C-%E6%95%B0%E6%8D%AE%E7%A0%94%E5%8F%91-1%E9%9D%A22%E9%9D%A2.pdf)      
+[4.23阿里数开一面](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C-01/4.23%E9%98%BF%E9%87%8C%E6%95%B0%E5%BC%80%E4%B8%80%E9%9D%A2.pdf)      
+[分享一个大数据的面经](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C-01/%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%AA%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%9A%84%E9%9D%A2%E7%BB%8F.pdf)      
+[十余家公司大数据开发面经](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C-01/%E5%8D%81%E4%BD%99%E5%AE%B6%E5%85%AC%E5%8F%B8%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%BC%80%E5%8F%91%E9%9D%A2%E7%BB%8F.pdf)      
+[大数据面经好少啊，我来写点](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C-01/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F%E5%A5%BD%E5%B0%91%E5%95%8A%EF%BC%8C%E6%88%91%E6%9D%A5%E5%86%99%E7%82%B9.pdf)      
+[提前批面经(Java_大数据)](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C-01/%E6%8F%90%E5%89%8D%E6%89%B9%E9%9D%A2%E7%BB%8F(Java_%E5%A4%A7%E6%95%B0%E6%8D%AE).pdf)      
+[阿里-数据技术与产品部（两次简历面）](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C-01/%E9%98%BF%E9%87%8C-%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E4%B8%8E%E4%BA%A7%E5%93%81%E9%83%A8%EF%BC%88%E4%B8%A4%E6%AC%A1%E7%AE%80%E5%8E%86%E9%9D%A2%EF%BC%89.pdf)      
+[阿里云一二三面凉经](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C-01/%E9%98%BF%E9%87%8C%E4%BA%91%E4%B8%80%E4%BA%8C%E4%B8%89%E9%9D%A2%E5%87%89%E7%BB%8F.pdf)      
+[阿里巴巴淘系大数据研发工程师三面面经](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C-01/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E6%B7%98%E7%B3%BB%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%A0%94%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88%E4%B8%89%E9%9D%A2%E9%9D%A2%E7%BB%8F.pdf)      
+[阿里集团大淘宝一面凉经](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C-01/%E9%98%BF%E9%87%8C%E9%9B%86%E5%9B%A2%E5%A4%A7%E6%B7%98%E5%AE%9D%E4%B8%80%E9%9D%A2%E5%87%89%E7%BB%8F.pdf)      
+[阿里巴巴 二面凉经](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%20%E4%BA%8C%E9%9D%A2%E5%87%89%E7%BB%8F.pdf)      
+
+
 
 
 大数据&后端书籍
