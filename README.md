@@ -260,8 +260,8 @@ Linux
 
 牛客网面经
 ---  
-#### 大数据面经
-##### 阿里面经
+### 大数据面经
+#### 阿里面经
 [阿里巴巴 二面凉经](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%20%E4%BA%8C%E9%9D%A2%E5%87%89%E7%BB%8F.pdf)      
 [阿里云大数据平台三面+HR面【已OC】](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C%E4%BA%91%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%B9%B3%E5%8F%B0%E4%B8%89%E9%9D%A2%2BHR%E9%9D%A2%E3%80%90%E5%B7%B2OC%E3%80%91.pdf)      
 [阿里-数据研发-1面2面](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C-%E6%95%B0%E6%8D%AE%E7%A0%94%E5%8F%91-1%E9%9D%A22%E9%9D%A2.pdf)      
@@ -276,7 +276,7 @@ Linux
 [阿里集团大淘宝一面凉经](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C-01/%E9%98%BF%E9%87%8C%E9%9B%86%E5%9B%A2%E5%A4%A7%E6%B7%98%E5%AE%9D%E4%B8%80%E9%9D%A2%E5%87%89%E7%BB%8F.pdf)      
 [阿里巴巴 二面凉经](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%20%E4%BA%8C%E9%9D%A2%E5%87%89%E7%BB%8F.pdf)      
 
-##### 腾讯面经
+#### 腾讯面经
 [2022暑假实习 数据开发 字节 腾讯](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E8%85%BE%E8%AE%AF/%E8%85%BE%E8%AE%AF-2023%E5%B9%B411%E6%9C%8812%E6%97%A5/2022%E6%9A%91%E5%81%87%E5%AE%9E%E4%B9%A0%20%E6%95%B0%E6%8D%AE%E5%BC%80%E5%8F%91%20%E5%AD%97%E8%8A%82%20%E8%85%BE%E8%AE%AF%EF%BC%88%E5%B7%B2offer.pdf)      
 [4.13 腾讯音乐数据工程笔试](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E8%85%BE%E8%AE%AF/%E8%85%BE%E8%AE%AF-2023%E5%B9%B411%E6%9C%8812%E6%97%A5/4.13%20%E8%85%BE%E8%AE%AF%E9%9F%B3%E4%B9%90%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B%E7%AC%94%E8%AF%95.pdf)      
 [2024届秋招总结](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E8%85%BE%E8%AE%AF/%E8%85%BE%E8%AE%AF-2023%E5%B9%B411%E6%9C%8812%E6%97%A5/2024%E5%B1%8A%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.pdf)      
