@@ -16,7 +16,7 @@
 
 ## 知识星球
 
-知识星球内容包括学习路线、学习资料（根据编程语言（Java、Python、Java+Scala）分了三大版本）、项目（50+个大数据项目）、面试题（大数据面试题、Java基础、计算机网络、Redis）、1000+篇大数据真实面经、600+篇Java后端真实面经（已按公司分类）、自己整理的视频学习笔记  
+知识星球内容包括**学习路线**、**学习资料**（根据编程语言（Java、Python、Java+Scala）分了三大版本）、项目（**50+个大数据项目**）、面试题（**700+道真实大数据面试题**、Java基础、计算机网络、Redis）、**1000+篇大数据真实面经**、600+篇Java后端真实面经（已按公司分类）、自己整理的视频学习笔记  
 
 **[知识星球资料介绍](https://www.yuque.com/vxo919/gyyog3/ohvyc2e38pprcxkn?singleDoc=)**   
 
@@ -283,6 +283,15 @@ Linux
 [5.30腾讯数据开发一面面经](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E8%85%BE%E8%AE%AF/%E8%85%BE%E8%AE%AF-2023%E5%B9%B411%E6%9C%8812%E6%97%A5/5.30%E8%85%BE%E8%AE%AF%E6%95%B0%E6%8D%AE%E5%BC%80%E5%8F%91%E4%B8%80%E9%9D%A2%E9%9D%A2%E7%BB%8F.pdf)      
 [9.20-腾讯云智-数据-二面](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E8%85%BE%E8%AE%AF/%E8%85%BE%E8%AE%AF-2023%E5%B9%B411%E6%9C%8812%E6%97%A5/9.20-%E8%85%BE%E8%AE%AF%E4%BA%91%E6%99%BA-%E6%95%B0%E6%8D%AE-%E4%BA%8C%E9%9D%A2.pdf)      
 [【腾讯】后端开发暑期实习面经（已offer）](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E8%85%BE%E8%AE%AF/%E8%85%BE%E8%AE%AF-2023%E5%B9%B411%E6%9C%8812%E6%97%A5/%E3%80%90%E8%85%BE%E8%AE%AF%E3%80%91%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0%E9%9D%A2%E7%BB%8F%EF%BC%88%E5%B7%B2offer%EF%BC%89.pdf)      
+[一面凉经-腾讯技术研究-数据科学](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E8%85%BE%E8%AE%AF/%E8%85%BE%E8%AE%AF-2023%E5%B9%B411%E6%9C%8812%E6%97%A5/%E4%B8%80%E9%9D%A2%E5%87%89%E7%BB%8F-%E8%85%BE%E8%AE%AF%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6-%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6.pdf)      
+[大数据开发实习面经（阿里、360、腾讯）](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E8%85%BE%E8%AE%AF/%E8%85%BE%E8%AE%AF-2023%E5%B9%B411%E6%9C%8812%E6%97%A5/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%BC%80%E5%8F%91%E5%AE%9E%E4%B9%A0%E9%9D%A2%E7%BB%8F%EF%BC%88%E9%98%BF%E9%87%8C%E3%80%81360%E3%80%81%E8%85%BE%E8%AE%AF%EF%BC%89.pdf)      
+[奇怪的csig数据工程timeline](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E8%85%BE%E8%AE%AF/%E8%85%BE%E8%AE%AF-2023%E5%B9%B411%E6%9C%8812%E6%97%A5/%E5%A5%87%E6%80%AA%E7%9A%84csig%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8Btimeline.pdf)    
+[字节腾讯大数据凉经](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E8%85%BE%E8%AE%AF/%E8%85%BE%E8%AE%AF-2023%E5%B9%B411%E6%9C%8812%E6%97%A5/%E5%AD%97%E8%8A%82%E8%85%BE%E8%AE%AF%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%87%89%E7%BB%8F.pdf)    
+[百度腾讯提前批阿里校招面经](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E8%85%BE%E8%AE%AF/%E8%85%BE%E8%AE%AF-2023%E5%B9%B411%E6%9C%8812%E6%97%A5/%E7%99%BE%E5%BA%A6%E8%85%BE%E8%AE%AF%E6%8F%90%E5%89%8D%E6%89%B9%E9%98%BF%E9%87%8C%E6%A0%A1%E6%8B%9B%E9%9D%A2%E7%BB%8F.pdf)     
+[腾讯 TEG 后台开发 大数据方向 一面总结](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E8%85%BE%E8%AE%AF/%E8%85%BE%E8%AE%AF-2023%E5%B9%B411%E6%9C%8812%E6%97%A5/%E8%85%BE%E8%AE%AF%20TEG%20%E5%90%8E%E5%8F%B0%E5%BC%80%E5%8F%91%20%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%96%B9%E5%90%91%20%E4%B8%80%E9%9D%A2%E6%80%BB%E7%BB%93.pdf)    
+[腾讯 偏大数据开发三面面经](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E8%85%BE%E8%AE%AF/%E8%85%BE%E8%AE%AF-2023%E5%B9%B411%E6%9C%8812%E6%97%A5/%E8%85%BE%E8%AE%AF%20%E5%81%8F%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%BC%80%E5%8F%91%E4%B8%89%E9%9D%A2%E9%9D%A2%E7%BB%8F.pdf)    
+[腾讯 偏大数据开发二面面经](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E8%85%BE%E8%AE%AF/%E8%85%BE%E8%AE%AF-2023%E5%B9%B411%E6%9C%8812%E6%97%A5/%E8%85%BE%E8%AE%AF%20%E5%81%8F%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%BC%80%E5%8F%91%20%E4%BA%8C%E9%9D%A2%E9%9D%A2%E7%BB%8F.pdf)    
+[腾讯 偏大数据开发一面面经](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E8%85%BE%E8%AE%AF/%E8%85%BE%E8%AE%AF-2023%E5%B9%B411%E6%9C%8812%E6%97%A5/%E8%85%BE%E8%AE%AF%20%E5%81%8F%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%BC%80%E5%8F%91%E4%B8%80%E9%9D%A2%E9%9D%A2%E7%BB%8F.pdf)    
 
 
 
