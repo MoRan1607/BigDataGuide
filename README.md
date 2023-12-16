@@ -346,6 +346,11 @@ Linux
 [小米大数据研发（已OC）timeline](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E5%B0%8F%E7%B1%B3/%E5%B0%8F%E7%B1%B3%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%A0%94%E5%8F%91%EF%BC%88%E5%B7%B2OC%EF%BC%89timeline.pdf)   
 [小米大数据面经](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E5%B0%8F%E7%B1%B3/%E5%B0%8F%E7%B1%B3%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F.pdf)   
 [小米面经，二面等通知中](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E7%BB%8F/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%9D%A2%E7%BB%8F/%E5%B0%8F%E7%B1%B3/%E5%B0%8F%E7%B1%B3%E9%9D%A2%E7%BB%8F%EF%BC%8C%E4%BA%8C%E9%9D%A2%E7%AD%89%E9%80%9A%E7%9F%A5%E4%B8%AD%E3%80%82.pdf)      
+     
+
+
+
+
 
 
 大数据&后端书籍
