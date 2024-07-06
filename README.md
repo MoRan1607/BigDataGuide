@@ -10,7 +10,7 @@
 #### 牛客网面经    
 #### 大数据面试题    
 
-### 《[大数据面试题 V4.0](https://mp.weixin.qq.com/s/NV90886HAQqBRB1hPNiIPQ)》已出，公众号回复：大数据面试题     
+### 《[大数据面试题 V5.0](https://mp.weixin.qq.com/s/NV90886HAQqBRB1hPNiIPQ)》已出，公众号回复：大数据面试题     
 
 <p align="center">
 <img src="https://github.com/MoRan1607/BigDataGuide/blob/master/Pics/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" width="200" height="200"/>  
