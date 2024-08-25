@@ -20,7 +20,9 @@
 
 ## 知识星球
 
-知识星球内容包括**学习路线**、**学习资料**（根据编程语言（Java、Python、Java+Scala）分了三大版本）、项目（**50+个大数据项目**）、面试题（**700+道真实大数据面试题**、Java基础、计算机网络、Redis）、**1200+篇大数据真实面经**、600+篇Java后端真实面经（已按公司分类）、自己整理的视频学习笔记  
+知识星球内容包括**学习路线**、**学习资料**（根据编程语言（Java、Python、Java+Scala）分了三大版本）、项目（**50+个大数据项目**）、面试题（**700+道真实大数据面试题**、Java基础、计算机网络、Redis、ClickHouse、Elasticsearch）、**1200+篇大数据真实面经**、600+篇Java后端真实面经（已按公司分类）、自己整理的视频学习笔记  
+
+新增：ClickHouse、Elasticsearch 面试题   
 
 **[知识星球资料介绍](https://www.yuque.com/vxo919/gyyog3/ohvyc2e38pprcxkn?singleDoc=)**   
 
