@@ -25,7 +25,7 @@
 **[知识星球资料介绍](https://www.yuque.com/vxo919/gyyog3/ohvyc2e38pprcxkn?singleDoc=)**   
 
 <p align="center">
-<img src="https://github.com/MoRan1607/BigDataGuide/blob/master/Docs/%E6%98%9F%E7%90%83%E4%BC%98%E6%83%A0%E5%88%B8%20(1).png"  width="300" height="387"/>  
+<img src="https://github.com/MoRan1607/BigDataGuide/blob/master/Pics/%E6%98%9F%E7%90%83%E4%BC%98%E6%83%A0%E5%88%B8-30.jpg"  width="300" height="387"/>  
 <p align="center">
 </p>
 </p>  
