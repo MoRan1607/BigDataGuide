@@ -24,25 +24,6 @@
 
 新增：Java基础、计算机网络、ClickHouse、Elasticsearch 面试题   
 
-| 面试题种类    | 数量 |
-| ------------- | ---- |
-| Hadoop        | 218  |
-| Zookeeper     | 43   |
-| Hive          | 117  |
-| Flume         | 30   |
-| HBase         | 112  |
-| Spark         | 154  |
-| Flink         | 77   |
-| 数仓          | 44   |
-| 综合部分      | 70   |
-| MySQL         | 82   |
-| Redis         | 27   |
-| ClickHouse    | 10   |
-| Java基础      | 325  |
-| 计算机网络    | 176  |
-| Elasticsearch | 69   |
-| 小计          | 1554 |
-
 **[知识星球资料介绍](https://www.yuque.com/vxo919/gyyog3/ohvyc2e38pprcxkn?singleDoc=)**   
 
 <p align="center">
