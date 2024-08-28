@@ -249,6 +249,7 @@ Linux
 [说下Spark中的Transform和Action，为什么Spark要把操作分为Transform和Action？](https://github.com/MoRan1607/BigDataGuide/blob/master/Spark/%E9%9D%A2%E8%AF%95%E9%A2%98/Spark%E7%9A%84%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/%E8%AF%B4%E4%B8%8BSpark%E4%B8%AD%E7%9A%84Transform%E5%92%8CAction%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88Spark%E8%A6%81%E6%8A%8A%E6%93%8D%E4%BD%9C%E5%88%86%E4%B8%BATransform%E5%92%8CAction%EF%BC%9F.pdf)    
 [Spark的任务执行流程](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Spark%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/Spark%E7%9A%84%E4%BB%BB%E5%8A%A1%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B.pdf)    
 [Spark的架构](https://github.com/MoRan1607/BigDataGuide/blob/master/Spark/%E9%9D%A2%E8%AF%95%E9%A2%98/Spark%E7%9A%84%E6%9E%B6%E6%9E%84.pdf)    
+[Spark join在什么情况下会变成窄依赖](https://github.com/MoRan1607/BigDataGuide/blob/master/Spark/%E9%9D%A2%E8%AF%95%E9%A2%98/Spark%20join%E5%9C%A8%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%B8%8B%E4%BC%9A%E5%8F%98%E6%88%90%E7%AA%84%E4%BE%9D%E8%B5%96.pdf)    
 
 
 #### 八、Flink     
