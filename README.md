@@ -250,6 +250,7 @@ Linux
 [Spark的任务执行流程](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Spark%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/Spark%E7%9A%84%E4%BB%BB%E5%8A%A1%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B.pdf)    
 [Spark的架构](https://github.com/MoRan1607/BigDataGuide/blob/master/Spark/%E9%9D%A2%E8%AF%95%E9%A2%98/Spark%E7%9A%84%E6%9E%B6%E6%9E%84.pdf)    
 [Spark join在什么情况下会变成窄依赖](https://github.com/MoRan1607/BigDataGuide/blob/master/Spark/%E9%9D%A2%E8%AF%95%E9%A2%98/Spark%20join%E5%9C%A8%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%B8%8B%E4%BC%9A%E5%8F%98%E6%88%90%E7%AA%84%E4%BE%9D%E8%B5%96.pdf)    
+[Spark Streaming和Kafka之间重复消费漏消费的问题](https://github.com/MoRan1607/BigDataGuide/blob/master/Spark/%E9%9D%A2%E8%AF%95%E9%A2%98/Spark%20Streaming%E5%92%8CKafka%E4%B9%8B%E9%97%B4%E9%87%8D%E5%A4%8D%E6%B6%88%E8%B4%B9%E6%BC%8F%E6%B6%88%E8%B4%B9%E7%9A%84%E9%97%AE%E9%A2%98.pdf)    
 
 
 #### 八、Flink     
