@@ -9,6 +9,8 @@
 ## <font color=blue>更新中。。。</font>  
 #### 牛客网面经    
 #### 大数据面试题    
+#### JVM面试题    
+#### Elasticsearch面试题    
 
 ### 《[大数据面试题 V5.0](https://mp.weixin.qq.com/s/NV90886HAQqBRB1hPNiIPQ)》已出，公众号回复：大数据面试题     
 
@@ -265,6 +267,8 @@ Linux
 [Spark和MapReduce之间的区别？各自优缺点？](https://github.com/MoRan1607/BigDataGuide/blob/master/Spark/%E9%9D%A2%E8%AF%95%E9%A2%98/Spark%E7%9A%84%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/Spark%E5%92%8CMapReduce%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8C%BA%E5%88%AB%EF%BC%9F%E5%90%84%E8%87%AA%E4%BC%98%E7%BC%BA%E7%82%B9%EF%BC%9F.pdf)      
 [Spark和Flink的区别](https://github.com/MoRan1607/BigDataGuide/blob/master/Flink/%E9%9D%A2%E8%AF%95%E9%A2%98/Spark%E5%92%8CFlink%E7%9A%84%E5%8C%BA%E5%88%AB.pdf)      
 
+#### 十一、JVM面试题
+[哪些情况下，JVM中对象会从年轻代进入老年代](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/JVM/%E5%93%AA%E4%BA%9B%E6%83%85%E5%86%B5%E4%B8%8B%EF%BC%8CJVM%E4%B8%AD%E5%AF%B9%E8%B1%A1%E4%BC%9A%E4%BB%8E%E5%B9%B4%E8%BD%BB%E4%BB%A3%E8%BF%9B%E5%85%A5%E8%80%81%E5%B9%B4%E4%BB%A3.md)      
 
 牛客网面经
 ---  
