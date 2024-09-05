@@ -190,6 +190,7 @@ Linux
 [Hadoop小文件处理问题](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Hadoop%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93/Hadoop/Hadoop%E5%B0%8F%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86%E9%97%AE%E9%A2%98.md)  
 [Hadoop中的几个进程和作用](https://github.com/MoRan1607/BigDataGuide/blob/master/Hadoop/%E9%9D%A2%E8%AF%95%E9%A2%98/Hadoop/%E9%9D%A2%E8%AF%95%E9%A2%98/Hadoop%E4%B8%AD%E7%9A%84%E5%87%A0%E4%B8%AA%E8%BF%9B%E7%A8%8B%E5%92%8C%E4%BD%9C%E7%94%A8.pdf)  
 [Hadoop的mapper和reducer的个数如何确定？reducer的个数依据是什么？](https://github.com/MoRan1607/BigDataGuide/blob/master/Hadoop/%E9%9D%A2%E8%AF%95%E9%A2%98/Hadoop/%E9%9D%A2%E8%AF%95%E9%A2%98/Hadoop%E7%9A%84mapper%E5%92%8Creducer%E7%9A%84%E4%B8%AA%E6%95%B0%E5%A6%82%E4%BD%95%E7%A1%AE%E5%AE%9A%EF%BC%9Freducer%E7%9A%84%E4%B8%AA%E6%95%B0%E4%BE%9D%E6%8D%AE%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F.md)  
+[Hadoop的checkpoint流程](https://github.com/MoRan1607/BigDataGuide/blob/master/Hadoop/%E9%9D%A2%E8%AF%95%E9%A2%98/Hadoop/%E9%9D%A2%E8%AF%95%E9%A2%98/Hadoop%E7%9A%84checkpoint%E6%B5%81%E7%A8%8B.pdf)  
 
 ##### 2、HDFS
 [HDFS读写流程](https://blog.csdn.net/qq_41544550/article/details/103113335)  
