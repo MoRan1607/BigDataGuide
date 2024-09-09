@@ -195,6 +195,7 @@ Linux
 ##### 2、HDFS
 [HDFS读写流程](https://blog.csdn.net/qq_41544550/article/details/103113335)  
 [HDFS的block为什么是128M？增大或减小有什么影响？](https://github.com/MoRan1607/BigDataGuide/blob/master/Hadoop/%E9%9D%A2%E8%AF%95%E9%A2%98/Hadoop/%E9%9D%A2%E8%AF%95%E9%A2%98/HDFS%E7%9A%84block%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF128M%EF%BC%9F%E5%A2%9E%E5%A4%A7%E6%88%96%E5%87%8F%E5%B0%8F%E6%9C%89%E4%BB%80%E4%B9%88%E5%BD%B1%E5%93%8D%EF%BC%9F/HDFS%E7%9A%84block%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF128M%EF%BC%9F%E5%A2%9E%E5%A4%A7%E6%88%96%E5%87%8F%E5%B0%8F%E6%9C%89%E4%BB%80%E4%B9%88%E5%BD%B1%E5%93%8D.md)   
+[HDFS写数据过程，写的过程中有哪些故障，分别会怎么处理](https://github.com/MoRan1607/BigDataGuide/blob/master/Hadoop/%E9%9D%A2%E8%AF%95%E9%A2%98/Hadoop/%E9%9D%A2%E8%AF%95%E9%A2%98/HDFS%E5%86%99%E6%95%B0%E6%8D%AE%E8%BF%87%E7%A8%8B%EF%BC%8C%E5%86%99%E7%9A%84%E8%BF%87%E7%A8%8B%E4%B8%AD%E6%9C%89%E5%93%AA%E4%BA%9B%E6%95%85%E9%9A%9C%EF%BC%8C%E5%88%86%E5%88%AB%E4%BC%9A%E6%80%8E%E4%B9%88%E5%A4%84%E7%90%86.pdf)     
 
 ##### 3、MapReduce
 [介绍下MapReduce](https://blog.csdn.net/qq_41544550/article/details/123674103)  
