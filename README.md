@@ -275,6 +275,9 @@ Linux
 [哪些情况下，JVM中对象会从年轻代进入老年代](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/JVM/%E5%93%AA%E4%BA%9B%E6%83%85%E5%86%B5%E4%B8%8B%EF%BC%8CJVM%E4%B8%AD%E5%AF%B9%E8%B1%A1%E4%BC%9A%E4%BB%8E%E5%B9%B4%E8%BD%BB%E4%BB%A3%E8%BF%9B%E5%85%A5%E8%80%81%E5%B9%B4%E4%BB%A3.md)      
 [双亲委派模型](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/JVM/%E5%8F%8C%E4%BA%B2%E5%A7%94%E6%B4%BE%E6%A8%A1%E5%9E%8B.pdf)      
 
+#### 十二、Elasticsearch面试题
+[Elasticsearch搜索的过程](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/ES/Elasticsearch%E6%90%9C%E7%B4%A2%E7%9A%84%E8%BF%87%E7%A8%8B.pdf)      
+
 
 牛客网面经
 ---  
