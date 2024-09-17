@@ -258,9 +258,9 @@ Linux
 
 
 #### 八、Flink     
-
 [介绍下Flink](https://github.com/MoRan1607/BigDataGuide/blob/master/Flink/%E4%BB%8B%E7%BB%8D%E4%B8%8BFlink)      
 [Flink架构](https://github.com/MoRan1607/BigDataGuide/blob/master/Flink/%E9%9D%A2%E8%AF%95%E9%A2%98/Flink%E6%9E%B6%E6%9E%84.pdf)      
+[Flink的时间语义](https://github.com/MoRan1607/BigDataGuide/blob/master/Flink/%E9%9D%A2%E8%AF%95%E9%A2%98/Flink%E7%9A%84%E6%97%B6%E9%97%B4%E8%AF%AD%E4%B9%89.pdf)      
 
 #### 九、数仓面试题   
 [数据仓库和数据中台区别](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/%E6%95%B0%E4%BB%93/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E5%92%8C%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%8F%B0%E5%8C%BA%E5%88%AB.pdf)    
