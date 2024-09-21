@@ -231,6 +231,7 @@ Linux
 [Kafka怎么保证数据不丢失，不重复？](https://github.com/MoRan1607/BigDataGuide/blob/master/Kafka/%E9%9D%A2%E8%AF%95%E9%A2%98/Kafka%E6%80%8E%E4%B9%88%E4%BF%9D%E8%AF%81%E6%95%B0%E6%8D%AE%E4%B8%8D%E4%B8%A2%E5%A4%B1%EF%BC%8C%E4%B8%8D%E9%87%8D%E5%A4%8D%EF%BC%9F.pdf)   
 [Kafka的单播和多播](https://github.com/MoRan1607/BigDataGuide/blob/master/Kafka/%E9%9D%A2%E8%AF%95%E9%A2%98/Kafka%E7%9A%84%E5%8D%95%E6%92%AD%E5%92%8C%E5%A4%9A%E6%92%AD.pdf)   
 [说下Kafka的ISR机制](https://github.com/MoRan1607/BigDataGuide/blob/master/Kafka/%E9%9D%A2%E8%AF%95%E9%A2%98/%E8%AF%B4%E4%B8%8BKafka%E7%9A%84ISR%E6%9C%BA%E5%88%B6.pdf)  
+[说下Kafka架构](https://github.com/MoRan1607/BigDataGuide/blob/master/Kafka/%E9%9D%A2%E8%AF%95%E9%A2%98/%E8%AF%B4%E4%B8%8BKafka%E6%9E%B6%E6%9E%84.pdf)  
 
 #### 六、HBase
 [介绍下HBase架构](https://blog.csdn.net/qq_41544550/article/details/123583361)  
@@ -243,7 +244,6 @@ Linux
 [HBase的读写缓存](https://github.com/MoRan1607/BigDataGuide/blob/master/HBase/%E9%9D%A2%E8%AF%95%E9%A2%98/HBase%E7%9A%84%E8%AF%BB%E5%86%99%E7%BC%93%E5%AD%98.pdf)  
 
 #### 七、Spark    
-
 [说下对RDD的理解？RDD特点、算子？](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Spark%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/Spark/Pics/%E8%AF%B4%E4%B8%8B%E5%AF%B9RDD%E7%9A%84%E7%90%86%E8%A7%A3%EF%BC%9FRDD%E7%89%B9%E7%82%B9%E3%80%81%E7%AE%97%E5%AD%90/%E8%AF%B4%E4%B8%8B%E5%AF%B9RDD%E7%9A%84%E7%90%86%E8%A7%A3%EF%BC%9FRDD%E7%89%B9%E7%82%B9%E3%80%81%E7%AE%97%E5%AD%90.md)     
 [Spark小文件问题](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Spark%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/Spark/Spark%E5%B0%8F%E6%96%87%E4%BB%B6%E9%97%AE%E9%A2%98/Spark%E5%B0%8F%E6%96%87%E4%BB%B6%E9%97%AE%E9%A2%98.md)    
 [Spark的内存模型](https://github.com/MoRan1607/BigDataGuide/blob/master/Spark/%E9%9D%A2%E8%AF%95%E9%A2%98/Spark%E7%9A%84%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/Spark%E7%9A%84%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.md)    
