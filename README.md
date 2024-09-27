@@ -49,12 +49,12 @@
 编程语言  
 ---  
 编程语言部分建议先JavaSE，Spark和Flink之前学习Scala，如果时间紧迫，就找个Java版的Spark或Flink教程，Python看个人或工作，不过有Java基础，Python会快很多（别问我怎么学，问就是使劲拼命学 [ 吃瓜.jpg ]）  
-### 一、JavaSE（二选一）     
+### 一、JavaSE（三选一）     
 [刘意2019版](https://www.bilibili.com/video/BV1gb411F76B?from=search&seid=16116797084076868427)   
     
 [尚硅谷宋红康版](https://www.bilibili.com/video/BV1Kb411W75N?from=search&seid=9321658006825735818)   
 
-
+[黑马版](https://www.bilibili.com/video/BV1Cv411372m/?spm_id_from=333.337.search-card.all.click&vd_source=6e976aeae23aa587d36891ef2e760d5f)   
 [day01—Java基础入门](https://github.com/MoRan1607/BigDataGuide/blob/master/ProgrammingLanguage/Java/day01%E2%80%94Java%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8.md)   
 
 ### 二、Scala（二选一）  
