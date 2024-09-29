@@ -47,7 +47,6 @@
 3）sink：从Channel收集数据，将数据写到目标源(可以是下一个Source，也可以是HDFS或者HBase)。  
 **注意：要熟悉source、channel、sink的类型**  
 
-**[知识星球资料介绍](https://www.yuque.com/vxo919/gyyog3/ohvyc2e38pprcxkn?singleDoc=)**   
 
 <p align="center">
 <img src="https://github.com/MoRan1607/BigDataGuide/blob/master/Pics/%E6%98%9F%E7%90%83%E4%BC%98%E6%83%A0%E5%88%B820240926.png"  width="300" height="387"/>  
