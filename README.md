@@ -57,6 +57,7 @@
 [黑马版](https://www.bilibili.com/video/BV1Cv411372m/?spm_id_from=333.337.search-card.all.click&vd_source=6e976aeae23aa587d36891ef2e760d5f)    
 
 [day01—Java基础入门](https://github.com/MoRan1607/BigDataGuide/blob/master/ProgrammingLanguage/Java/day01%E2%80%94Java%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8.md)   
+[day02—数据类型、运算符](https://github.com/MoRan1607/BigDataGuide/blob/master/ProgrammingLanguage/Java/day02%E2%80%94%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E3%80%81%E8%BF%90%E7%AE%97%E7%AC%A6.md)   
 
 ### 二、Scala（二选一）  
 如果时间短，建议直接看配套Spark的那种三五天的，可以快速了解  
