@@ -176,6 +176,8 @@ Linux
 
 [第四章 离线数据开发](https://github.com/MoRan1607/BigDataGuide/blob/master/Docs/PDF/%E7%AC%AC%E5%9B%9B%E7%AB%A0%EF%BC%9A%E7%A6%BB%E7%BA%BF%E6%95%B0%E6%8D%AE%E5%BC%80%E5%8F%91.pdf)    
 
+[第五章 实时技术](https://github.com/MoRan1607/BigDataGuide/blob/master/Docs/PDF/%E7%AC%AC%E4%BA%94%E7%AB%A0%EF%BC%9A%E5%AE%9E%E6%97%B6%E6%8A%80%E6%9C%AF.pdf)    
+
 面试题
 ---
 > #### 陆续更新中。。。。。全量面试题（1550+道牛客网面经原题）见知识星球
