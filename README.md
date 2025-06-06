@@ -279,7 +279,7 @@ Linux
 [Elasticsearch搜索的过程](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/ES/Elasticsearch%E6%90%9C%E7%B4%A2%E7%9A%84%E8%BF%87%E7%A8%8B.pdf)      
 
 #### 十三、Doris面试题
-
+[Doris 的分区表和分桶表](https://github.com/MoRan1607/BigDataGuide/blob/master/%E9%9D%A2%E8%AF%95/Kafka%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86/Kafka/Doris%20%E7%9A%84%E5%88%86%E5%8C%BA%E8%A1%A8%E5%92%8C%E5%88%86%E6%A1%B6%E8%A1%A8.pdf)      
 
 
 牛客网面经
