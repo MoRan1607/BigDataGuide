@@ -6,7 +6,7 @@
 关注我的公众号：**旧时光大数据**，回复相应关键字，获取更多大数据干货、资料<br>    
 “大数据学习路线”中我自己看过的视频、文档资料可以直接在公众号获取云盘链接   
 
-### 《[大数据面试题 V5.0](https://mp.weixin.qq.com/s/NV90886HAQqBRB1hPNiIPQ)》已出，公众号回复：大数据面试题     
+### 《[大数据面试题 V6.0](https://mp.weixin.qq.com/s/fUHY6wQC6hf3QfeckTMkNw)》已出，公众号回复：大数据面试题     
 
 <p align="center">
 <img src="https://github.com/MoRan1607/BigDataGuide/blob/master/Pics/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" width="200" height="200"/>  
@@ -16,14 +16,14 @@
 
 ## 知识星球
 
-知识星球内容包括**学习路线**、**学习资料**（根据编程语言（Java、Python、Java+Scala）分了三大版本）、项目（**50+个大数据项目**）、面试题（**1550+道真实大数据面试题**、Java基础、计算机网络、Redis、ClickHouse、Elasticsearch）、**1200+篇大数据真实面经**、600+篇Java后端真实面经（已按公司分类）、自己整理的视频学习笔记  
+知识星球内容包括**学习路线**、**学习资料**（根据编程语言（Java、Python、Java+Scala）分了三大版本）、项目（**50+个大数据项目**）、面试题（**1930+道真实大数据面试题**、Java基础、计算机网络、Redis、ClickHouse、Elasticsearch）、**1200+篇大数据真实面经**、600+篇Java后端真实面经（已按公司分类）、自己整理的视频学习笔记  
 
 新增：Java基础、计算机网络、ClickHouse、Elasticsearch 面试题   
 
 **[知识星球资料介绍](https://www.yuque.com/vxo919/gyyog3/ohvyc2e38pprcxkn?singleDoc=)**   
 
 <p align="center">
-<img src="https://github.com/MoRan1607/BigDataGuide/blob/master/Pics/%E6%98%9F%E7%90%83%E4%BC%98%E6%83%A0%E5%88%B8-2025%E5%B9%B43%E6%9C%8810%E6%97%A5.png"  width="300" height="387"/>  
+<img src="https://github.com/MoRan1607/BigDataGuide/blob/master/Pics/%E7%9F%A5%E8%AF%86%E6%98%9F%E7%90%83%E4%BC%98%E6%83%A0%E5%88%B8-2026%E5%B9%B41%E6%9C%8820%E6%97%A5.png"  width="300" height="387"/>  
 <p align="center">
 </p>
 </p>  
